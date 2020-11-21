@@ -36,6 +36,9 @@
 		28A055A12557ECD200C82589 /* _loop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = _loop.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		28AB8E8A2557DA8B00AAB913 /* SwiftExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AB8E8D2557DA8B00AAB913 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		28FC1D652569099F0047A913 /* _c12_array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = _c12_array.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		28FC1D67256911DB0047A913 /* _c13_dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = _c13_dictionary.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		28FC1D6925691C710047A913 /* _c14_controll_pass.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = _c14_controll_pass.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,7 @@
 		28AB8E8C2557DA8B00AAB913 /* SwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				28FC1D652569099F0047A913 /* _c12_array.playground */,
 				284838B425653CC000227E75 /* _c11_condition.playground */,
 				285990342563ECAF00583D76 /* _10_operation.playground */,
 				280589B52562A14800EE9317 /* _9_string.playground */,
@@ -80,6 +84,8 @@
 				28A055A02557ECAC00C82589 /* _var.playground */,
 				28A0559C2557EB4F00C82589 /* _let.playground */,
 				28AB8E8D2557DA8B00AAB913 /* main.swift */,
+				28FC1D67256911DB0047A913 /* _c13_dictionary.playground */,
+				28FC1D6925691C710047A913 /* _c14_controll_pass.playground */,
 			);
 			path = SwiftExample;
 			sourceTree = "<group>";
