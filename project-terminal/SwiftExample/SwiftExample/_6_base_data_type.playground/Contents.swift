@@ -31,9 +31,9 @@ print(pi+pi_2); // 6.28
 // （2）Double -> Float : error
 /**
  error: cannot convert value of type 'Float' to specified type 'Double'
-     var  f_2:Double = pi+pi_2;
-     ~~^~~~~
-     Double()
+ var  f_2:Double = pi+pi_2;
+ ~~^~~~~
+ Double()
  */
 //var f_2:Double = pi+pi_2;
 //print(f_2);
