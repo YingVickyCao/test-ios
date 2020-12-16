@@ -11,9 +11,10 @@
 		28D2F5812587801E00932A1C /* BlackCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5802587801E00932A1C /* BlackCar.m */; };
 		28D2F5842587824B00932A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5832587824B00932A1C /* main.m */; };
 		28D2F58D258787A000932A1C /* Car+CarExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F58C258787A000932A1C /* Car+CarExtend.m */; };
-		28D2F59025878F3300932A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F58F25878F3300932A1C /* main.m */; };
+		28D2F59025878F3300932A1C /* test_NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F58F25878F3300932A1C /* test_NSString.m */; };
 		28E9738E258349BD00043B37 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E9738D258349BD00043B37 /* Person.m */; };
 		28E9739A2583929200043B37 /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E973992583929200043B37 /* Person2.m */; };
+		28F550F2258A31CB00FF63A0 /* test_NSMutableString.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F550F1258A31CB00FF63A0 /* test_NSMutableString.m */; };
 		28F605592571155A007DD7DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F605582571155A007DD7DD /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +38,11 @@
 		28D2F5832587824B00932A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28D2F58B258787A000932A1C /* Car+CarExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Car+CarExtend.h"; sourceTree = "<group>"; };
 		28D2F58C258787A000932A1C /* Car+CarExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Car+CarExtend.m"; sourceTree = "<group>"; };
-		28D2F58F25878F3300932A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28D2F58F25878F3300932A1C /* test_NSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_NSString.m; sourceTree = "<group>"; };
 		28E9738C258349BD00043B37 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		28E9738D258349BD00043B37 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		28E973992583929200043B37 /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
+		28F550F1258A31CB00FF63A0 /* test_NSMutableString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_NSMutableString.m; sourceTree = "<group>"; };
 		28F605552571155A007DD7DD /* test-Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F605582571155A007DD7DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +75,7 @@
 		28D2F58E25878F1B00932A1C /* _2_NSString */ = {
 			isa = PBXGroup;
 			children = (
-				28D2F58F25878F3300932A1C /* main.m */,
+				28D2F58F25878F3300932A1C /* test_NSString.m */,
 			);
 			path = _2_NSString;
 			sourceTree = "<group>";
@@ -106,6 +108,14 @@
 			path = _1.13_dot;
 			sourceTree = "<group>";
 		};
+		28F550F0258A319D00FF63A0 /* _3_NSMutableString */ = {
+			isa = PBXGroup;
+			children = (
+				28F550F1258A31CB00FF63A0 /* test_NSMutableString.m */,
+			);
+			path = _3_NSMutableString;
+			sourceTree = "<group>";
+		};
 		28F6054C2571155A007DD7DD = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		28F605572571155A007DD7DD /* test-Object-C */ = {
 			isa = PBXGroup;
 			children = (
+				28F550F0258A319D00FF63A0 /* _3_NSMutableString */,
 				28D2F58E25878F1B00932A1C /* _2_NSString */,
 				28E9738F2583873200043B37 /* _1_class */,
 			);
@@ -193,7 +204,8 @@
 				28E9738E258349BD00043B37 /* Person.m in Sources */,
 				28D2F5812587801E00932A1C /* BlackCar.m in Sources */,
 				28D2F5842587824B00932A1C /* main.m in Sources */,
-				28D2F59025878F3300932A1C /* main.m in Sources */,
+				28D2F59025878F3300932A1C /* test_NSString.m in Sources */,
+				28F550F2258A31CB00FF63A0 /* test_NSMutableString.m in Sources */,
 				28F605592571155A007DD7DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
