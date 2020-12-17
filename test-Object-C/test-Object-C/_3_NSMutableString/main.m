@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/*
 int main(int argc,const char * argv[]){
     @autoreleasepool {
         // Create - 对象方法
@@ -128,3 +128,4 @@ int main(int argc,const char * argv[]){
     }
     return 0;
 }
+*/
