@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+/*
 int main(int argc, const char * argv[]){
     // 创建
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] initWithObjectsAndKeys:@"v1",@"k1",@"v2",@"k2", nil];
@@ -67,3 +68,4 @@ int main(int argc, const char * argv[]){
     // k4 = v4;
     NSLog(@"%@",dict2);
 }
+*/
