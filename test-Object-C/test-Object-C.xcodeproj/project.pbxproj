@@ -14,10 +14,12 @@
 		28D2F59025878F3300932A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F58F25878F3300932A1C /* main.m */; };
 		28E9738E258349BD00043B37 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E9738D258349BD00043B37 /* Person.m */; };
 		28E9739A2583929200043B37 /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E973992583929200043B37 /* Person2.m */; };
-		28F550F2258A31CB00FF63A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F550F1258A31CB00FF63A0 /* main.m */; };
+		28F550F2258A31CB00FF63A0 /* main_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F550F1258A31CB00FF63A0 /* main_mutable.m */; };
 		28F605592571155A007DD7DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F605582571155A007DD7DD /* main.m */; };
 		28F7A229258B782C00107F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F7A228258B782C00107F6A /* main.m */; };
-		28F7A22C258B7FD200107F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F7A22B258B7FD200107F6A /* main.m */; };
+		28F7A22C258B7FD200107F6A /* main_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F7A22B258B7FD200107F6A /* main_mutable.m */; };
+		28F7A22F258C99AB00107F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F7A22E258C99AB00107F6A /* main.m */; };
+		28F7A233258C9B5700107F6A /* main_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F7A232258C9B5700107F6A /* main_mutable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,11 +46,13 @@
 		28E9738C258349BD00043B37 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		28E9738D258349BD00043B37 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		28E973992583929200043B37 /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
-		28F550F1258A31CB00FF63A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28F550F1258A31CB00FF63A0 /* main_mutable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_mutable.m; sourceTree = "<group>"; };
 		28F605552571155A007DD7DD /* test-Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F605582571155A007DD7DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28F7A228258B782C00107F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28F7A22B258B7FD200107F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28F7A22B258B7FD200107F6A /* main_mutable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_mutable.m; sourceTree = "<group>"; };
+		28F7A22E258C99AB00107F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28F7A232258C9B5700107F6A /* main_mutable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_mutable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		28D2F58E25878F1B00932A1C /* _2_NSString */ = {
 			isa = PBXGroup;
 			children = (
+				28F550F1258A31CB00FF63A0 /* main_mutable.m */,
 				28D2F58F25878F3300932A1C /* main.m */,
 			);
 			path = _2_NSString;
@@ -112,14 +117,6 @@
 			path = _1.13_dot;
 			sourceTree = "<group>";
 		};
-		28F550F0258A319D00FF63A0 /* _3_NSMutableString */ = {
-			isa = PBXGroup;
-			children = (
-				28F550F1258A31CB00FF63A0 /* main.m */,
-			);
-			path = _3_NSMutableString;
-			sourceTree = "<group>";
-		};
 		28F6054C2571155A007DD7DD = {
 			isa = PBXGroup;
 			children = (
@@ -139,29 +136,30 @@
 		28F605572571155A007DD7DD /* test-Object-C */ = {
 			isa = PBXGroup;
 			children = (
-				28F7A22A258B7FAC00107F6A /* _5_NSMugableArray */,
-				28F7A227258B779D00107F6A /* _4_NSArray */,
+				28F7A22D258C998A00107F6A /* _4_NSDictionary */,
+				28F7A227258B779D00107F6A /* _3_NSArray */,
 				28E9738F2583873200043B37 /* _1_class */,
 				28D2F58E25878F1B00932A1C /* _2_NSString */,
-				28F550F0258A319D00FF63A0 /* _3_NSMutableString */,
 			);
 			path = "test-Object-C";
 			sourceTree = "<group>";
 		};
-		28F7A227258B779D00107F6A /* _4_NSArray */ = {
+		28F7A227258B779D00107F6A /* _3_NSArray */ = {
 			isa = PBXGroup;
 			children = (
+				28F7A22B258B7FD200107F6A /* main_mutable.m */,
 				28F7A228258B782C00107F6A /* main.m */,
 			);
-			path = _4_NSArray;
+			path = _3_NSArray;
 			sourceTree = "<group>";
 		};
-		28F7A22A258B7FAC00107F6A /* _5_NSMugableArray */ = {
+		28F7A22D258C998A00107F6A /* _4_NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				28F7A22B258B7FD200107F6A /* main.m */,
+				28F7A232258C9B5700107F6A /* main_mutable.m */,
+				28F7A22E258C99AB00107F6A /* main.m */,
 			);
-			path = _5_NSMugableArray;
+			path = _4_NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F7A233258C9B5700107F6A /* main_mutable.m in Sources */,
 				28D2F57B25877F6000932A1C /* Car.m in Sources */,
 				28E9739A2583929200043B37 /* Person2.m in Sources */,
 				28D2F58D258787A000932A1C /* Car+CarExtend.m in Sources */,
@@ -227,9 +226,10 @@
 				28D2F5812587801E00932A1C /* BlackCar.m in Sources */,
 				28D2F5842587824B00932A1C /* main.m in Sources */,
 				28D2F59025878F3300932A1C /* main.m in Sources */,
-				28F550F2258A31CB00FF63A0 /* main.m in Sources */,
+				28F550F2258A31CB00FF63A0 /* main_mutable.m in Sources */,
 				28F7A229258B782C00107F6A /* main.m in Sources */,
-				28F7A22C258B7FD200107F6A /* main.m in Sources */,
+				28F7A22C258B7FD200107F6A /* main_mutable.m in Sources */,
+				28F7A22F258C99AB00107F6A /* main.m in Sources */,
 				28F605592571155A007DD7DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
