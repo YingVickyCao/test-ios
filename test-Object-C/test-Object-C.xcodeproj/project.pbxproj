@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		286DCECE258CB1E700148706 /* main_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 286DCECD258CB1E700148706 /* main_mutable.m */; };
+		28BECF912593100B00AA8722 /* main_convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECF902593100B00AA8722 /* main_convert.m */; };
+		28BECF942593179A00AA8722 /* main_mrc.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECF932593179A00AA8722 /* main_mrc.m */; };
+		28BECF9625931C2700AA8722 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECF9525931C2700AA8722 /* Dog.m */; };
+		28BECF9C259328E600AA8722 /* Person3.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECF9B259328E600AA8722 /* Person3.m */; };
 		28D2F57B25877F6000932A1C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F57A25877F6000932A1C /* Car.m */; };
 		28D2F5812587801E00932A1C /* BlackCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5802587801E00932A1C /* BlackCar.m */; };
 		28D2F5842587824B00932A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5832587824B00932A1C /* main.m */; };
@@ -39,6 +43,12 @@
 
 /* Begin PBXFileReference section */
 		286DCECD258CB1E700148706 /* main_mutable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_mutable.m; sourceTree = "<group>"; };
+		28BECF902593100B00AA8722 /* main_convert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_convert.m; sourceTree = "<group>"; };
+		28BECF932593179A00AA8722 /* main_mrc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_mrc.m; sourceTree = "<group>"; };
+		28BECF9525931C2700AA8722 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		28BECF9725931D7500AA8722 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		28BECF9A259328E600AA8722 /* Person3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person3.h; sourceTree = "<group>"; };
+		28BECF9B259328E600AA8722 /* Person3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person3.m; sourceTree = "<group>"; };
 		28D2F57A25877F6000932A1C /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		28D2F57F2587801E00932A1C /* BlackCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackCar.h; sourceTree = "<group>"; };
 		28D2F5802587801E00932A1C /* BlackCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackCar.m; sourceTree = "<group>"; };
@@ -72,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28BECF922593175700AA8722 /* _7_memory_management */ = {
+			isa = PBXGroup;
+			children = (
+				28BECF9D2594658300AA8722 /* MRC */,
+			);
+			path = _7_memory_management;
+			sourceTree = "<group>";
+		};
+		28BECF9D2594658300AA8722 /* MRC */ = {
+			isa = PBXGroup;
+			children = (
+				28BECF9A259328E600AA8722 /* Person3.h */,
+				28BECF9525931C2700AA8722 /* Dog.m */,
+				28BECF932593179A00AA8722 /* main_mrc.m */,
+				28BECF9725931D7500AA8722 /* Dog.h */,
+				28BECF9B259328E600AA8722 /* Person3.m */,
+			);
+			path = MRC;
+			sourceTree = "<group>";
+		};
 		28D2F57725877E6B00932A1C /* _1.14_category */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +121,7 @@
 			children = (
 				28F550F1258A31CB00FF63A0 /* main_mutable.m */,
 				28D2F58F25878F3300932A1C /* main.m */,
+				28BECF902593100B00AA8722 /* main_convert.m */,
 			);
 			path = _2_NSString;
 			sourceTree = "<group>";
@@ -142,6 +173,7 @@
 		28F605572571155A007DD7DD /* test-Object-C */ = {
 			isa = PBXGroup;
 			children = (
+				28BECF922593175700AA8722 /* _7_memory_management */,
 				28F7A237258CAECA00107F6A /* _6_NSIndexSet */,
 				28F7A234258CAAFA00107F6A /* _5_NSNumber */,
 				28F7A22D258C998A00107F6A /* _4_NSDictionary */,
@@ -244,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F7A233258C9B5700107F6A /* main_mutable.m in Sources */,
+				28BECF912593100B00AA8722 /* main_convert.m in Sources */,
+				28BECF9C259328E600AA8722 /* Person3.m in Sources */,
 				28D2F57B25877F6000932A1C /* Car.m in Sources */,
 				28E9739A2583929200043B37 /* Person2.m in Sources */,
 				28D2F58D258787A000932A1C /* Car+CarExtend.m in Sources */,
@@ -251,6 +285,8 @@
 				28D2F5812587801E00932A1C /* BlackCar.m in Sources */,
 				28D2F5842587824B00932A1C /* main.m in Sources */,
 				286DCECE258CB1E700148706 /* main_mutable.m in Sources */,
+				28BECF942593179A00AA8722 /* main_mrc.m in Sources */,
+				28BECF9625931C2700AA8722 /* Dog.m in Sources */,
 				28D2F59025878F3300932A1C /* main.m in Sources */,
 				28F550F2258A31CB00FF63A0 /* main_mutable.m in Sources */,
 				28F7A229258B782C00107F6A /* main.m in Sources */,
@@ -379,6 +415,7 @@
 		28F6055D2571155A007DD7DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZYZW6949U;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +425,7 @@
 		28F6055E2571155A007DD7DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZYZW6949U;
 				PRODUCT_NAME = "$(TARGET_NAME)";
