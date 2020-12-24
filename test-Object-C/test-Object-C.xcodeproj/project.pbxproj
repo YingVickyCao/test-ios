@@ -12,6 +12,9 @@
 		28BECF942593179A00AA8722 /* main_mrc.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECF932593179A00AA8722 /* main_mrc.m */; };
 		28BECF9625931C2700AA8722 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECF9525931C2700AA8722 /* Dog.m */; };
 		28BECF9C259328E600AA8722 /* Person3.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECF9B259328E600AA8722 /* Person3.m */; };
+		28BECFA12594724600AA8722 /* Dog2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFA02594724600AA8722 /* Dog2.m */; };
+		28BECFA32594727100AA8722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFA22594727100AA8722 /* main.m */; };
+		28BECFA62594739400AA8722 /* Person4.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFA52594739400AA8722 /* Person4.m */; };
 		28D2F57B25877F6000932A1C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F57A25877F6000932A1C /* Car.m */; };
 		28D2F5812587801E00932A1C /* BlackCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5802587801E00932A1C /* BlackCar.m */; };
 		28D2F5842587824B00932A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5832587824B00932A1C /* main.m */; };
@@ -49,6 +52,11 @@
 		28BECF9725931D7500AA8722 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		28BECF9A259328E600AA8722 /* Person3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person3.h; sourceTree = "<group>"; };
 		28BECF9B259328E600AA8722 /* Person3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person3.m; sourceTree = "<group>"; };
+		28BECF9F2594724600AA8722 /* Dog2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog2.h; sourceTree = "<group>"; };
+		28BECFA02594724600AA8722 /* Dog2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog2.m; sourceTree = "<group>"; };
+		28BECFA22594727100AA8722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28BECFA42594739400AA8722 /* Person4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person4.h; sourceTree = "<group>"; };
+		28BECFA52594739400AA8722 /* Person4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person4.m; sourceTree = "<group>"; };
 		28D2F57A25877F6000932A1C /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		28D2F57F2587801E00932A1C /* BlackCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackCar.h; sourceTree = "<group>"; };
 		28D2F5802587801E00932A1C /* BlackCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackCar.m; sourceTree = "<group>"; };
@@ -85,6 +93,7 @@
 		28BECF922593175700AA8722 /* _7_memory_management */ = {
 			isa = PBXGroup;
 			children = (
+				28BECF9E2594723100AA8722 /* ARC */,
 				28BECF9D2594658300AA8722 /* MRC */,
 			);
 			path = _7_memory_management;
@@ -100,6 +109,18 @@
 				28BECF9B259328E600AA8722 /* Person3.m */,
 			);
 			path = MRC;
+			sourceTree = "<group>";
+		};
+		28BECF9E2594723100AA8722 /* ARC */ = {
+			isa = PBXGroup;
+			children = (
+				28BECF9F2594724600AA8722 /* Dog2.h */,
+				28BECFA02594724600AA8722 /* Dog2.m */,
+				28BECFA22594727100AA8722 /* main.m */,
+				28BECFA42594739400AA8722 /* Person4.h */,
+				28BECFA52594739400AA8722 /* Person4.m */,
+			);
+			path = ARC;
 			sourceTree = "<group>";
 		};
 		28D2F57725877E6B00932A1C /* _1.14_category */ = {
@@ -279,6 +300,7 @@
 				28BECF912593100B00AA8722 /* main_convert.m in Sources */,
 				28BECF9C259328E600AA8722 /* Person3.m in Sources */,
 				28D2F57B25877F6000932A1C /* Car.m in Sources */,
+				28BECFA12594724600AA8722 /* Dog2.m in Sources */,
 				28E9739A2583929200043B37 /* Person2.m in Sources */,
 				28D2F58D258787A000932A1C /* Car+CarExtend.m in Sources */,
 				28E9738E258349BD00043B37 /* Person.m in Sources */,
@@ -287,6 +309,7 @@
 				286DCECE258CB1E700148706 /* main_mutable.m in Sources */,
 				28BECF942593179A00AA8722 /* main_mrc.m in Sources */,
 				28BECF9625931C2700AA8722 /* Dog.m in Sources */,
+				28BECFA62594739400AA8722 /* Person4.m in Sources */,
 				28D2F59025878F3300932A1C /* main.m in Sources */,
 				28F550F2258A31CB00FF63A0 /* main_mutable.m in Sources */,
 				28F7A229258B782C00107F6A /* main.m in Sources */,
@@ -294,6 +317,7 @@
 				28F7A22C258B7FD200107F6A /* main_mutable.m in Sources */,
 				28F7A22F258C99AB00107F6A /* main.m in Sources */,
 				28F7A236258CAB0900107F6A /* main.m in Sources */,
+				28BECFA32594727100AA8722 /* main.m in Sources */,
 				28F605592571155A007DD7DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +334,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -369,7 +393,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
