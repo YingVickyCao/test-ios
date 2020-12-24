@@ -10,6 +10,7 @@
 #import "Dog2.h"
 #import "Person4.h"
 
+/*
 int main(int argc, const char * argv[]){
     // XCode >= 5.0
 //    @autoreleasepool {
@@ -44,3 +45,4 @@ int main(int argc, const char * argv[]){
 //    [poo2 release];
     return 0;
 }
+*/

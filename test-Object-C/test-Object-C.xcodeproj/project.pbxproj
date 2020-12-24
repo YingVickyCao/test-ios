@@ -15,6 +15,9 @@
 		28BECFA12594724600AA8722 /* Dog2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFA02594724600AA8722 /* Dog2.m */; };
 		28BECFA32594727100AA8722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFA22594727100AA8722 /* main.m */; };
 		28BECFA62594739400AA8722 /* Person4.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFA52594739400AA8722 /* Person4.m */; };
+		28BECFAA2594915300AA8722 /* Moviegoer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFA92594915300AA8722 /* Moviegoer.m */; };
+		28BECFAD2594928200AA8722 /* TicketScalper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFAC2594928200AA8722 /* TicketScalper.m */; };
+		28BECFAF259493A200AA8722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFAE259493A200AA8722 /* main.m */; };
 		28D2F57B25877F6000932A1C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F57A25877F6000932A1C /* Car.m */; };
 		28D2F5812587801E00932A1C /* BlackCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5802587801E00932A1C /* BlackCar.m */; };
 		28D2F5842587824B00932A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5832587824B00932A1C /* main.m */; };
@@ -57,6 +60,11 @@
 		28BECFA22594727100AA8722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28BECFA42594739400AA8722 /* Person4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person4.h; sourceTree = "<group>"; };
 		28BECFA52594739400AA8722 /* Person4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person4.m; sourceTree = "<group>"; };
+		28BECFA82594915300AA8722 /* Moviegoer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moviegoer.h; sourceTree = "<group>"; };
+		28BECFA92594915300AA8722 /* Moviegoer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moviegoer.m; sourceTree = "<group>"; };
+		28BECFAB2594928200AA8722 /* TicketScalper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketScalper.h; sourceTree = "<group>"; };
+		28BECFAC2594928200AA8722 /* TicketScalper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketScalper.m; sourceTree = "<group>"; };
+		28BECFAE259493A200AA8722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28D2F57A25877F6000932A1C /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		28D2F57F2587801E00932A1C /* BlackCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackCar.h; sourceTree = "<group>"; };
 		28D2F5802587801E00932A1C /* BlackCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackCar.m; sourceTree = "<group>"; };
@@ -121,6 +129,18 @@
 				28BECFA52594739400AA8722 /* Person4.m */,
 			);
 			path = ARC;
+			sourceTree = "<group>";
+		};
+		28BECFA72594910700AA8722 /* _8_delegate */ = {
+			isa = PBXGroup;
+			children = (
+				28BECFA82594915300AA8722 /* Moviegoer.h */,
+				28BECFA92594915300AA8722 /* Moviegoer.m */,
+				28BECFAB2594928200AA8722 /* TicketScalper.h */,
+				28BECFAC2594928200AA8722 /* TicketScalper.m */,
+				28BECFAE259493A200AA8722 /* main.m */,
+			);
+			path = _8_delegate;
 			sourceTree = "<group>";
 		};
 		28D2F57725877E6B00932A1C /* _1.14_category */ = {
@@ -194,6 +214,7 @@
 		28F605572571155A007DD7DD /* test-Object-C */ = {
 			isa = PBXGroup;
 			children = (
+				28BECFA72594910700AA8722 /* _8_delegate */,
 				28BECF922593175700AA8722 /* _7_memory_management */,
 				28F7A237258CAECA00107F6A /* _6_NSIndexSet */,
 				28F7A234258CAAFA00107F6A /* _5_NSNumber */,
@@ -296,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BECFAF259493A200AA8722 /* main.m in Sources */,
 				28F7A233258C9B5700107F6A /* main_mutable.m in Sources */,
 				28BECF912593100B00AA8722 /* main_convert.m in Sources */,
 				28BECF9C259328E600AA8722 /* Person3.m in Sources */,
@@ -303,10 +325,12 @@
 				28BECFA12594724600AA8722 /* Dog2.m in Sources */,
 				28E9739A2583929200043B37 /* Person2.m in Sources */,
 				28D2F58D258787A000932A1C /* Car+CarExtend.m in Sources */,
+				28BECFAD2594928200AA8722 /* TicketScalper.m in Sources */,
 				28E9738E258349BD00043B37 /* Person.m in Sources */,
 				28D2F5812587801E00932A1C /* BlackCar.m in Sources */,
 				28D2F5842587824B00932A1C /* main.m in Sources */,
 				286DCECE258CB1E700148706 /* main_mutable.m in Sources */,
+				28BECFAA2594915300AA8722 /* Moviegoer.m in Sources */,
 				28BECF942593179A00AA8722 /* main_mrc.m in Sources */,
 				28BECF9625931C2700AA8722 /* Dog.m in Sources */,
 				28BECFA62594739400AA8722 /* Person4.m in Sources */,
