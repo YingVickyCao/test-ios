@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "Moviegoer.h"
 #import "TicketScalper.h"
-
+/*
 int main(int argc, const char * argv[]){
     @autoreleasepool {
+        // 用黄牛买票
         Moviegoer *p = [[Moviegoer alloc]init];
         TicketScalper *huangXiu = [[TicketScalper alloc]init];
         
@@ -23,3 +24,4 @@ int main(int argc, const char * argv[]){
     }
     return 0;
 }
+*/

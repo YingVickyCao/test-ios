@@ -18,6 +18,7 @@
 		28BECFAA2594915300AA8722 /* Moviegoer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFA92594915300AA8722 /* Moviegoer.m */; };
 		28BECFAD2594928200AA8722 /* TicketScalper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFAC2594928200AA8722 /* TicketScalper.m */; };
 		28BECFAF259493A200AA8722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFAE259493A200AA8722 /* main.m */; };
+		28BECFB22594990B00AA8722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BECFB12594990B00AA8722 /* main.m */; };
 		28D2F57B25877F6000932A1C /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F57A25877F6000932A1C /* Car.m */; };
 		28D2F5812587801E00932A1C /* BlackCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5802587801E00932A1C /* BlackCar.m */; };
 		28D2F5842587824B00932A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2F5832587824B00932A1C /* main.m */; };
@@ -65,6 +66,7 @@
 		28BECFAB2594928200AA8722 /* TicketScalper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketScalper.h; sourceTree = "<group>"; };
 		28BECFAC2594928200AA8722 /* TicketScalper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketScalper.m; sourceTree = "<group>"; };
 		28BECFAE259493A200AA8722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28BECFB12594990B00AA8722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28D2F57A25877F6000932A1C /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		28D2F57F2587801E00932A1C /* BlackCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackCar.h; sourceTree = "<group>"; };
 		28D2F5802587801E00932A1C /* BlackCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackCar.m; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		28BECF922593175700AA8722 /* _7_memory_management */ = {
 			isa = PBXGroup;
 			children = (
+				28BECFB02594987C00AA8722 /* Copy */,
 				28BECF9E2594723100AA8722 /* ARC */,
 				28BECF9D2594658300AA8722 /* MRC */,
 			);
@@ -141,6 +144,14 @@
 				28BECFAE259493A200AA8722 /* main.m */,
 			);
 			path = _8_delegate;
+			sourceTree = "<group>";
+		};
+		28BECFB02594987C00AA8722 /* Copy */ = {
+			isa = PBXGroup;
+			children = (
+				28BECFB12594990B00AA8722 /* main.m */,
+			);
+			path = Copy;
 			sourceTree = "<group>";
 		};
 		28D2F57725877E6B00932A1C /* _1.14_category */ = {
@@ -333,6 +344,7 @@
 				28BECFAA2594915300AA8722 /* Moviegoer.m in Sources */,
 				28BECF942593179A00AA8722 /* main_mrc.m in Sources */,
 				28BECF9625931C2700AA8722 /* Dog.m in Sources */,
+				28BECFB22594990B00AA8722 /* main.m in Sources */,
 				28BECFA62594739400AA8722 /* Person4.m in Sources */,
 				28D2F59025878F3300932A1C /* main.m in Sources */,
 				28F550F2258A31CB00FF63A0 /* main_mutable.m in Sources */,
