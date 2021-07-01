@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-/*int main(int argc, char* argv[] ){
+/*int main(int argc, const char* argv[] ){
     @autoreleasepool {
         char charVar = 'a';
         NSLog(@"%c",charVar);   // a

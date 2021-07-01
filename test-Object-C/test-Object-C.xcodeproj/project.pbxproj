@@ -11,6 +11,11 @@
 		2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68C2689B54300EA65A1 /* Fraction_main.m */; };
 		2811D690268A989700EA65A1 /* _3_data_type.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68F268A989700EA65A1 /* _3_data_type.m */; };
 		2833B7B5268D3E7C000A4CF1 /* _4_expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7B4268D3E7C000A4CF1 /* _4_expression.m */; };
+		2833B7B7268D6921000A4CF1 /* _5_loop_for.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7B6268D6921000A4CF1 /* _5_loop_for.m */; };
+		2833B7BA268D8C1E000A4CF1 /* _5_loop_while.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7B9268D8C1E000A4CF1 /* _5_loop_while.m */; };
+		2833B7BC268D8F62000A4CF1 /* _5_loop_do.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BB268D8F62000A4CF1 /* _5_loop_do.m */; };
+		2833B7BE268D929C000A4CF1 /* _5_break.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BD268D929C000A4CF1 /* _5_break.m */; };
+		2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */; };
 		28D9525B268607E100B833B7 /* _1_first_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D9525A268607E100B833B7 /* _1_first_app.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +37,11 @@
 		2811D68C2689B54300EA65A1 /* Fraction_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction_main.m; sourceTree = "<group>"; };
 		2811D68F268A989700EA65A1 /* _3_data_type.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_data_type.m; sourceTree = "<group>"; };
 		2833B7B4268D3E7C000A4CF1 /* _4_expression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_expression.m; sourceTree = "<group>"; };
+		2833B7B6268D6921000A4CF1 /* _5_loop_for.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_for.m; sourceTree = "<group>"; };
+		2833B7B9268D8C1E000A4CF1 /* _5_loop_while.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_while.m; sourceTree = "<group>"; };
+		2833B7BB268D8F62000A4CF1 /* _5_loop_do.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_do.m; sourceTree = "<group>"; };
+		2833B7BD268D929C000A4CF1 /* _5_break.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_break.m; sourceTree = "<group>"; };
+		2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_continue.m; sourceTree = "<group>"; };
 		28D95257268607E100B833B7 /* test-Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D9525A268607E100B833B7 /* _1_first_app.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_first_app.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +67,18 @@
 			path = _2_class_object_method;
 			sourceTree = "<group>";
 		};
+		2833B7B8268D8BC5000A4CF1 /* _5_loop */ = {
+			isa = PBXGroup;
+			children = (
+				2833B7B6268D6921000A4CF1 /* _5_loop_for.m */,
+				2833B7B9268D8C1E000A4CF1 /* _5_loop_while.m */,
+				2833B7BB268D8F62000A4CF1 /* _5_loop_do.m */,
+				2833B7BD268D929C000A4CF1 /* _5_break.m */,
+				2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */,
+			);
+			path = _5_loop;
+			sourceTree = "<group>";
+		};
 		28D9524E268607E100B833B7 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +98,7 @@
 		28D95259268607E100B833B7 /* test-Object-C */ = {
 			isa = PBXGroup;
 			children = (
+				2833B7B8268D8BC5000A4CF1 /* _5_loop */,
 				28D9525A268607E100B833B7 /* _1_first_app.m */,
 				2811D68F268A989700EA65A1 /* _3_data_type.m */,
 				2811D6872689AE6200EA65A1 /* _2_class_object_method */,
@@ -142,9 +165,14 @@
 			files = (
 				28D9525B268607E100B833B7 /* _1_first_app.m in Sources */,
 				2833B7B5268D3E7C000A4CF1 /* _4_expression.m in Sources */,
+				2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */,
 				2811D690268A989700EA65A1 /* _3_data_type.m in Sources */,
 				2811D68B2689B0C100EA65A1 /* Fraction.m in Sources */,
+				2833B7BA268D8C1E000A4CF1 /* _5_loop_while.m in Sources */,
 				2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */,
+				2833B7BE268D929C000A4CF1 /* _5_break.m in Sources */,
+				2833B7BC268D8F62000A4CF1 /* _5_loop_do.m in Sources */,
+				2833B7B7268D6921000A4CF1 /* _5_loop_for.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

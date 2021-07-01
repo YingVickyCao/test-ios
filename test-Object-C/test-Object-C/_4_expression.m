@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, char* argv[]){
+/*int main(int argc, const char* argv[]){
     @autoreleasepool {
         // 算数表达式
         {
@@ -83,3 +83,4 @@ int main(int argc, char* argv[]){
     }
     return 0;
 }
+*/

@@ -9,7 +9,7 @@
 #import "Fraction.h"
 
 //program 部分：调用。
-/*int main(int argc, char* argv[]){
+/*int main(int argc, const char* argv[]){
     @autoreleasepool {
         
         // alloc是allocate的缩写。
