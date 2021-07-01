@@ -9,7 +9,7 @@
 #import "Fraction.h"
 
 //program 部分：调用。
-int main(int argc, char* argv[]){
+/*int main(int argc, char* argv[]){
     @autoreleasepool {
         
         // alloc是allocate的缩写。
@@ -31,5 +31,6 @@ int main(int argc, char* argv[]){
         // 通过对象的get方法来访问对象的变量
         NSLog(@"param is %i, %i", [myFraction denominator],[myFraction numerator]); // param is 10, 50
     }
-}
+    return 0;
+}*/
 
