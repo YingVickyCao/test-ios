@@ -16,6 +16,7 @@
 		2833B7BC268D8F62000A4CF1 /* _5_loop_do.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BB268D8F62000A4CF1 /* _5_loop_do.m */; };
 		2833B7BE268D929C000A4CF1 /* _5_break.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BD268D929C000A4CF1 /* _5_break.m */; };
 		2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */; };
+		2833B7C3268E81AE000A4CF1 /* _6_condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7C2268E81AE000A4CF1 /* _6_condition.m */; };
 		28D9525B268607E100B833B7 /* _1_first_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D9525A268607E100B833B7 /* _1_first_app.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		2833B7BB268D8F62000A4CF1 /* _5_loop_do.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_do.m; sourceTree = "<group>"; };
 		2833B7BD268D929C000A4CF1 /* _5_break.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_break.m; sourceTree = "<group>"; };
 		2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_continue.m; sourceTree = "<group>"; };
+		2833B7C2268E81AE000A4CF1 /* _6_condition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition.m; sourceTree = "<group>"; };
 		28D95257268607E100B833B7 /* test-Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D9525A268607E100B833B7 /* _1_first_app.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_first_app.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,14 @@
 			path = _5_loop;
 			sourceTree = "<group>";
 		};
+		2833B7C1268E8172000A4CF1 /* _6_condition */ = {
+			isa = PBXGroup;
+			children = (
+				2833B7C2268E81AE000A4CF1 /* _6_condition.m */,
+			);
+			path = _6_condition;
+			sourceTree = "<group>";
+		};
 		28D9524E268607E100B833B7 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		28D95259268607E100B833B7 /* test-Object-C */ = {
 			isa = PBXGroup;
 			children = (
+				2833B7C1268E8172000A4CF1 /* _6_condition */,
 				2833B7B8268D8BC5000A4CF1 /* _5_loop */,
 				28D9525A268607E100B833B7 /* _1_first_app.m */,
 				2811D68F268A989700EA65A1 /* _3_data_type.m */,
@@ -168,6 +179,7 @@
 				2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */,
 				2811D690268A989700EA65A1 /* _3_data_type.m in Sources */,
 				2811D68B2689B0C100EA65A1 /* Fraction.m in Sources */,
+				2833B7C3268E81AE000A4CF1 /* _6_condition.m in Sources */,
 				2833B7BA268D8C1E000A4CF1 /* _5_loop_while.m in Sources */,
 				2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */,
 				2833B7BE268D929C000A4CF1 /* _5_break.m in Sources */,
