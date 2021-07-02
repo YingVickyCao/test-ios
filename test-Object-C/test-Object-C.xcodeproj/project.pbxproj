@@ -16,7 +16,10 @@
 		2833B7BC268D8F62000A4CF1 /* _5_loop_do.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BB268D8F62000A4CF1 /* _5_loop_do.m */; };
 		2833B7BE268D929C000A4CF1 /* _5_break.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BD268D929C000A4CF1 /* _5_break.m */; };
 		2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */; };
-		2833B7C3268E81AE000A4CF1 /* _6_condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7C2268E81AE000A4CF1 /* _6_condition.m */; };
+		2833B7C3268E81AE000A4CF1 /* _6_condition_if.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */; };
+		28CDE031268EB7F1003ADE3D /* _6_condition_switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */; };
+		28CDE033268EB830003ADE3D /* _6_condition_Boolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */; };
+		28CDE035268ECA7C003ADE3D /* _6_conditional_operator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE034268ECA7C003ADE3D /* _6_conditional_operator.m */; };
 		28D9525B268607E100B833B7 /* _1_first_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D9525A268607E100B833B7 /* _1_first_app.m */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +46,10 @@
 		2833B7BB268D8F62000A4CF1 /* _5_loop_do.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_do.m; sourceTree = "<group>"; };
 		2833B7BD268D929C000A4CF1 /* _5_break.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_break.m; sourceTree = "<group>"; };
 		2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_continue.m; sourceTree = "<group>"; };
-		2833B7C2268E81AE000A4CF1 /* _6_condition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition.m; sourceTree = "<group>"; };
+		2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_if.m; sourceTree = "<group>"; };
+		28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_switch.m; sourceTree = "<group>"; };
+		28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_Boolean.m; sourceTree = "<group>"; };
+		28CDE034268ECA7C003ADE3D /* _6_conditional_operator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_conditional_operator.m; sourceTree = "<group>"; };
 		28D95257268607E100B833B7 /* test-Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D9525A268607E100B833B7 /* _1_first_app.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_first_app.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +90,10 @@
 		2833B7C1268E8172000A4CF1 /* _6_condition */ = {
 			isa = PBXGroup;
 			children = (
-				2833B7C2268E81AE000A4CF1 /* _6_condition.m */,
+				2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */,
+				28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */,
+				28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */,
+				28CDE034268ECA7C003ADE3D /* _6_conditional_operator.m */,
 			);
 			path = _6_condition;
 			sourceTree = "<group>";
@@ -174,12 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CDE031268EB7F1003ADE3D /* _6_condition_switch.m in Sources */,
+				28CDE035268ECA7C003ADE3D /* _6_conditional_operator.m in Sources */,
 				28D9525B268607E100B833B7 /* _1_first_app.m in Sources */,
 				2833B7B5268D3E7C000A4CF1 /* _4_expression.m in Sources */,
 				2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */,
 				2811D690268A989700EA65A1 /* _3_data_type.m in Sources */,
 				2811D68B2689B0C100EA65A1 /* Fraction.m in Sources */,
-				2833B7C3268E81AE000A4CF1 /* _6_condition.m in Sources */,
+				28CDE033268EB830003ADE3D /* _6_condition_Boolean.m in Sources */,
+				2833B7C3268E81AE000A4CF1 /* _6_condition_if.m in Sources */,
 				2833B7BA268D8C1E000A4CF1 /* _5_loop_while.m in Sources */,
 				2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */,
 				2833B7BE268D929C000A4CF1 /* _5_break.m in Sources */,
