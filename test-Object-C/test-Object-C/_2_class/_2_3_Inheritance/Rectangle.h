@@ -10,10 +10,15 @@
 #define Rectange_h
 
 #import <Foundation/Foundation.h>
+
+@class XYPoint;
+
 @interface Rectangle:NSObject // 长方形
 @property int width, height;
 
--(void)setWidth:(int)w andHeight:(int)h;
+-(XYPoint *) origin; //  origin is a instance of XYPoint
+-(void)setOrigin:(XYPoint *) pt;
+-(void)setWidth:(int) w andHeight:(int) h;
 -(int)area; // 面积
 -(int)perimeter; //  周长
 

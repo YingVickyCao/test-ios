@@ -12,7 +12,8 @@
 #import "ClassA.h"
 
 @interface ClassB : ClassA
--(void)printVar;
+-(void) initVar;
+-(void) printVar;
 @end
 
 #endif /* ClassB_h */

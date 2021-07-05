@@ -7,10 +7,28 @@
 //
 
 #import "Rectangle.h"
+#import "XYPoint.h"
 
 @implementation Rectangle
+{
+    XYPoint *origin;
+}
 
 @synthesize width,height;
+
+-(XYPoint *)origin{
+    return origin;
+}
+//-(void)setOrigin:(XYPoint *)pt{
+//    origin = pt;
+//}
+-(void)setOrigin:(XYPoint *)pt{
+    if (!origin) {
+        origin = [[XYPoint alloc]init];
+    }
+    origin.x = pt.x;
+    origin.y = pt.y;
+}
 
 -(void)setWidth:(int)w andHeight:(int)h{
     width = w;

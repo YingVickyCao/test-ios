@@ -10,6 +10,10 @@
 
 @implementation ClassB
 
+-(void) initVar{
+    x = 200;
+}
+
 -(void)printVar{
     NSLog(@"X:%i",x);
 }

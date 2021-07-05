@@ -8,7 +8,7 @@
 
 #import "Square.h"
 
-int main(int argc, const char* argv[]){
+/*int main(int argc, const char* argv[]){
     @autoreleasepool {
         Square *mySquare = [[Square alloc]init];
         [mySquare setSide : 5];
@@ -17,3 +17,4 @@ int main(int argc, const char* argv[]){
     }
     return 0;
 }
+ */

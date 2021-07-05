@@ -14,6 +14,7 @@
 @interface ClassA : NSObject
 {
     // 在接口部分直接声明实例变量x，是为了使得子类能够访问到。
+    // 将由子类继承
     int x;
 }
 

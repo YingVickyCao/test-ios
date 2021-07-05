@@ -12,9 +12,11 @@
     @autoreleasepool {
         ClassB *b = [[ClassB alloc] init];
         [b initVar];
+        // X:100
+        // X:200
         [b printVar];
     }
 
     return 0;
 }
-*/
+ */
