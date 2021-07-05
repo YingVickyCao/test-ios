@@ -8,6 +8,7 @@
 
 #import "Fraction.h"
 
+// 类的定义
 // @@implementation部分：实现类（数据+方法）
 @implementation Fraction
 {

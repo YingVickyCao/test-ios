@@ -12,6 +12,7 @@
 
 # import <Foundation/Foundation.h>
 
+// 类的定义
 // @interface部分：声明类和类的方法
 @interface Fraction : NSObject
 -(void) print;
