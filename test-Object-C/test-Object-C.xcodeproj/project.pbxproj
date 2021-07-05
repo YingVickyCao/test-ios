@@ -27,6 +27,8 @@
 		286C15832692DC7300903309 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C15822692DC7300903309 /* XYPoint.m */; };
 		2885382C2693385B00C92956 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885382B2693385B00C92956 /* Complex.m */; };
 		2885382E2693392200C92956 /* _2_4_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885382D2693392200C92956 /* _2_4_main.m */; };
+		288538312693CDB400C92956 /* _2_5_main_4_ dynamic_type.m in Sources */ = {isa = PBXBuildFile; fileRef = 288538302693CDB400C92956 /* _2_5_main_4_ dynamic_type.m */; };
+		288538332693CDFC00C92956 /* _2_5_main_4_ check_dynamic_type.m in Sources */ = {isa = PBXBuildFile; fileRef = 288538322693CDFC00C92956 /* _2_5_main_4_ check_dynamic_type.m */; };
 		28CDE031268EB7F1003ADE3D /* _6_condition_switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */; };
 		28CDE033268EB830003ADE3D /* _6_condition_Boolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */; };
 		28CDE035268ECA7C003ADE3D /* _6_conditional_operator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE034268ECA7C003ADE3D /* _6_conditional_operator.m */; };
@@ -75,6 +77,8 @@
 		2885382A269337AC00C92956 /* Complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
 		2885382B2693385B00C92956 /* Complex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
 		2885382D2693392200C92956 /* _2_4_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_4_main.m; sourceTree = "<group>"; };
+		288538302693CDB400C92956 /* _2_5_main_4_ dynamic_type.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_5_main_4_ dynamic_type.m"; sourceTree = "<group>"; };
+		288538322693CDFC00C92956 /* _2_5_main_4_ check_dynamic_type.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_5_main_4_ check_dynamic_type.m"; sourceTree = "<group>"; };
 		28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_switch.m; sourceTree = "<group>"; };
 		28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_Boolean.m; sourceTree = "<group>"; };
 		28CDE034268ECA7C003ADE3D /* _6_conditional_operator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_conditional_operator.m; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 		2811D6872689AE6200EA65A1 /* _2_class */ = {
 			isa = PBXGroup;
 			children = (
+				2885382F2693CD8A00C92956 /* _2_5_ dynamic_type */,
 				288538292693342D00C92956 /* _2_4_polymorphism */,
 				286C156E2692B76600903309 /* _2_3_Inheritance */,
 				28CDE037268ED0A9003ADE3D /* _2_2_synthesis_access_method */,
@@ -158,6 +163,15 @@
 				2885382D2693392200C92956 /* _2_4_main.m */,
 			);
 			path = _2_4_polymorphism;
+			sourceTree = "<group>";
+		};
+		2885382F2693CD8A00C92956 /* _2_5_ dynamic_type */ = {
+			isa = PBXGroup;
+			children = (
+				288538302693CDB400C92956 /* _2_5_main_4_ dynamic_type.m */,
+				288538322693CDFC00C92956 /* _2_5_main_4_ check_dynamic_type.m */,
+			);
+			path = "_2_5_ dynamic_type";
 			sourceTree = "<group>";
 		};
 		28CDE036268ED088003ADE3D /* _2_1_class_object_method */ = {
@@ -266,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28CDE031268EB7F1003ADE3D /* _6_condition_switch.m in Sources */,
+				288538312693CDB400C92956 /* _2_5_main_4_ dynamic_type.m in Sources */,
 				28CDE035268ECA7C003ADE3D /* _6_conditional_operator.m in Sources */,
 				28D9525B268607E100B833B7 /* _1_first_app.m in Sources */,
 				286C157B2692CC5400903309 /* _2_4_main_4_Rectangle.m in Sources */,
@@ -286,6 +301,7 @@
 				2885382E2693392200C92956 /* _2_4_main.m in Sources */,
 				286C15802692CE5D00903309 /* _2_4_main_4_Square.m in Sources */,
 				28CDE03C268ED26D003ADE3D /* Fraction_2.m in Sources */,
+				288538332693CDFC00C92956 /* _2_5_main_4_ check_dynamic_type.m in Sources */,
 				2833B7BE268D929C000A4CF1 /* _5_break.m in Sources */,
 				2833B7BC268D8F62000A4CF1 /* _5_loop_do.m in Sources */,
 				286C15762692C6E500903309 /* 2_4_main.m in Sources */,
