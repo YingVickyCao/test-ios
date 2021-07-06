@@ -13,6 +13,12 @@
 @implementation Fraction_3
 @synthesize numerator,denominator;
 
+// 为了使用指定的初始化方法，需要修改init方法。
+-(instancetype) init{
+    return [self initWith:0 over:0];
+}
+
+// 指定的初始化方法
 - (Fraction_3 *)initWith:(int)n over:(int)d{
     self = [super init];
     if (self) {

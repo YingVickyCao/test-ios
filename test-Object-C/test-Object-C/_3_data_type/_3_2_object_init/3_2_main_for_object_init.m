@@ -8,17 +8,17 @@
 
 #import "Fraction_3_.h"
 
-//program 部分：调用。
+/*
 int main(int argc, const char* argv[]){
     @autoreleasepool {
         Fraction_3 *f = [[Fraction_3 alloc]init];
         [f setTo:1 over:3];
-        [f print];
+        [f print];  // 1, 3
         
         Fraction_3 *f2 = [[Fraction_3 alloc] initWith:1 over:3];
-        [f2 print];
-        //        [f2 release]; TODO:
+        [f2 print]; // 1, 3
+        // [f2 release]; TODO:
     }
     return 0;
 }
-
+*/

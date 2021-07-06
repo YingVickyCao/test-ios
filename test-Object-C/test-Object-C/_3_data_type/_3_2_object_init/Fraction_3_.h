@@ -18,6 +18,7 @@
 
 @property int numerator,denominator;
 
+// 将初始化对象和设置初始值的过程合并到一个方法中。
 -(Fraction_3 *) initWith:(int)n over:(int)d;
 -(void) print;
 

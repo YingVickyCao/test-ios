@@ -164,6 +164,31 @@
 			path = _2_3_Inheritance;
 			sourceTree = "<group>";
 		};
+		286E850026948F6400E36008 /* _3_3_scope */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = _3_3_scope;
+			sourceTree = "<group>";
+		};
+		286E850126948F9A00E36008 /* _3_1_basic_type */ = {
+			isa = PBXGroup;
+			children = (
+				2811D68F268A989700EA65A1 /* _3_1_main_4_basic_data_type.m */,
+			);
+			path = _3_1_basic_type;
+			sourceTree = "<group>";
+		};
+		286E850226948FA900E36008 /* _3_2_object_init */ = {
+			isa = PBXGroup;
+			children = (
+				2885383A269416ED00C92956 /* Fraction_3_.h */,
+				2885383B269416ED00C92956 /* 3_2_main_for_object_init.m */,
+				2885383C269416ED00C92956 /* Fraction_3.m */,
+			);
+			path = _3_2_object_init;
+			sourceTree = "<group>";
+		};
 		288538292693342D00C92956 /* _2_4_polymorphism */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,10 +220,9 @@
 		288538392694168900C92956 /* _3_data_type */ = {
 			isa = PBXGroup;
 			children = (
-				2885383A269416ED00C92956 /* Fraction_3_.h */,
-				2885383B269416ED00C92956 /* 3_2_main_for_object_init.m */,
-				2885383C269416ED00C92956 /* Fraction_3.m */,
-				2811D68F268A989700EA65A1 /* _3_1_main_4_basic_data_type.m */,
+				286E850226948FA900E36008 /* _3_2_object_init */,
+				286E850126948F9A00E36008 /* _3_1_basic_type */,
+				286E850026948F6400E36008 /* _3_3_scope */,
 			);
 			path = _3_data_type;
 			sourceTree = "<group>";
