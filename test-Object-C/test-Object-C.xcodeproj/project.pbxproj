@@ -12,6 +12,7 @@
 		2811D690268A989700EA65A1 /* _3_1_main_4_basic_data_type.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68F268A989700EA65A1 /* _3_1_main_4_basic_data_type.m */; };
 		2813A0E5269DB9DE0062F9AF /* _2_6_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813A0E4269DB9DE0062F9AF /* _2_6_main.m */; };
 		2813A0E8269DBB470062F9AF /* Square_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813A0E7269DBB470062F9AF /* Square_2.m */; };
+		2813A0EB269DC35D0062F9AF /* _12_main_for_define.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813A0EA269DC35D0062F9AF /* _12_main_for_define.m */; };
 		282997362694A096008233D5 /* _3_3_main_4_global.m in Sources */ = {isa = PBXBuildFile; fileRef = 282997352694A096008233D5 /* _3_3_main_4_global.m */; };
 		2833B7B5268D3E7C000A4CF1 /* _4_main_for_expression.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7B4268D3E7C000A4CF1 /* _4_main_for_expression.m */; };
 		2833B7B7268D6921000A4CF1 /* _5_loop_for.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7B6268D6921000A4CF1 /* _5_loop_for.m */; };
@@ -75,6 +76,7 @@
 		2813A0E3269DB9200062F9AF /* Square_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square_2.h; sourceTree = "<group>"; };
 		2813A0E4269DB9DE0062F9AF /* _2_6_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_6_main.m; sourceTree = "<group>"; };
 		2813A0E7269DBB470062F9AF /* Square_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Square_2.m; sourceTree = "<group>"; };
+		2813A0EA269DC35D0062F9AF /* _12_main_for_define.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _12_main_for_define.m; sourceTree = "<group>"; };
 		282997352694A096008233D5 /* _3_3_main_4_global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_3_main_4_global.m; sourceTree = "<group>"; };
 		2833B7B4268D3E7C000A4CF1 /* _4_main_for_expression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_main_for_expression.m; sourceTree = "<group>"; };
 		2833B7B6268D6921000A4CF1 /* _5_loop_for.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_for.m; sourceTree = "<group>"; };
@@ -166,6 +168,14 @@
 				2813A0E4269DB9DE0062F9AF /* _2_6_main.m */,
 			);
 			path = _2_6_composite_class;
+			sourceTree = "<group>";
+		};
+		2813A0E9269DC2680062F9AF /* _12_preprocessor */ = {
+			isa = PBXGroup;
+			children = (
+				2813A0EA269DC35D0062F9AF /* _12_main_for_define.m */,
+			);
+			path = _12_preprocessor;
 			sourceTree = "<group>";
 		};
 		2833B7B8268D8BC5000A4CF1 /* _5_loop */ = {
@@ -362,15 +372,16 @@
 		28D95259268607E100B833B7 /* test-Object-C */ = {
 			isa = PBXGroup;
 			children = (
-				28A188E2269C7DAF0082E715 /* _10_protocol */,
-				28D0F9FC269C022300C5F5B1 /* _11_category */,
-				28D0F9F92695BBFD00C5F5B1 /* _4_expression */,
-				288538392694168900C92956 /* _3_data_type */,
-				288538342693D24300C92956 /* _7_try_catch */,
-				2833B7C1268E8172000A4CF1 /* _6_condition */,
-				2833B7B8268D8BC5000A4CF1 /* _5_loop */,
 				28D9525A268607E100B833B7 /* _1_first_app.m */,
 				2811D6872689AE6200EA65A1 /* _2_class */,
+				288538392694168900C92956 /* _3_data_type */,
+				28D0F9F92695BBFD00C5F5B1 /* _4_expression */,
+				2833B7B8268D8BC5000A4CF1 /* _5_loop */,
+				2833B7C1268E8172000A4CF1 /* _6_condition */,
+				288538342693D24300C92956 /* _7_try_catch */,
+				28A188E2269C7DAF0082E715 /* _10_protocol */,
+				28D0F9FC269C022300C5F5B1 /* _11_category */,
+				2813A0E9269DC2680062F9AF /* _12_preprocessor */,
 			);
 			path = "test-Object-C";
 			sourceTree = "<group>";
@@ -446,6 +457,7 @@
 				288538362693D25F00C92956 /* _7_1_main_4_crash.m in Sources */,
 				2811D690268A989700EA65A1 /* _3_1_main_4_basic_data_type.m in Sources */,
 				28853838269410B600C92956 /* _7_2_main_4_try_catch.m in Sources */,
+				2813A0EB269DC35D0062F9AF /* _12_main_for_define.m in Sources */,
 				2811D68B2689B0C100EA65A1 /* Fraction.m in Sources */,
 				286C15792692CB9C00903309 /* Rectangle.m in Sources */,
 				28CDE03E268ED3B4003ADE3D /* Fraction_2_main.m in Sources */,
