@@ -27,7 +27,7 @@
 
 //#define SQUARE(x) x * x
 #define SQUARE(x) ((x) * (x))
-
+/*
 int main(int argc, const char* argv[]){
     
     @autoreleasepool {
@@ -96,3 +96,4 @@ int main(int argc, const char* argv[]){
         }
     }
 }
+*/
