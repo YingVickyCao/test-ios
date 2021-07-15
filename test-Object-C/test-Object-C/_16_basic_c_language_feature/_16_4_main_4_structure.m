@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/*
 int main(int argc, const char* argv[]){
     @autoreleasepool {
         
@@ -17,6 +17,7 @@ int main(int argc, const char* argv[]){
             int month;
             int day;
         };
+        
         
         // 定义一个 struct date 类型 的变量，所以导致了内存中分配了空间
         struct date today;
@@ -57,6 +58,51 @@ int main(int argc, const char* argv[]){
         };
         NSLog(@"%i/%i/%i",yesterday.year,yesterday.month,yesterday.day);        // 2020/7/1
         NSLog(@"%i/%i/%i",yesterday2.year,yesterday2.month,yesterday2.day);    // 2021/0/0
+        
+        // 结构中的结构
+        struct MyRect{
+            int x;
+            int y;
+        };
+        
+        struct MySize{
+            int width;
+            int height;
+        };
+        // typedef提供声明变量更简单的方式。
+        typedef struct MySize MySize;
+        struct MyPoint{
+            struct MyRect a;
+            MySize size;
+        };
+        typedef struct MyPoint MyPoint;
+        MyPoint p;
+        p.a.x = 5;
+        p.a.y = 10;
+        p.size.width = 100;
+        p.size.height = 200;
+        NSLog(@"%i,%i,%i,%i", p.a.x,p.a.y,p.size.width,p.size.height);  // 5,10,100,200
+        
+        // 定义结构，同时声明了变量
+        struct date2{
+            int year;
+            int month;
+            int day;
+        }today2,purchasedDay2;
+ 
+        struct date3{
+            int year;
+            int month;
+            int day;
+        }today3={2022,8,2};
+        
+        // 定义结构时，若定义了它所有变量，那么可以省略结构名称
+        struct{
+            int year;
+            int month;
+            int day;
+        }dates[100];
     }
     return 0;
 }
+*/
