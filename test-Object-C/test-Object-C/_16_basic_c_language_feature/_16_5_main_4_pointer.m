@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+void exchange(int *ptr1, int *ptr2){
+    int temp;
+    temp = *ptr1;
+    *ptr1 = *ptr2;
+    *ptr2 = temp;
+}
+/*
 int main(int argc, const char* argv[]){
     @autoreleasepool {
         // 直接访问
@@ -31,6 +38,16 @@ int main(int argc, const char* argv[]){
         
         *intPtr = 100;
         NSLog(@"count=%i",count);   // 100
+        
+        // 按一般方式将指针作为参数传递给方法或函数。
+        int n1 = -5, n2 = 66, *p1 = &n1, *p2 = &n2;
+        void exchange(int *ptr1, int *ptr2);
+        exchange(p1, p2);
+        NSLog(@"n1=%i,n2=%i",n1,n2);    // n1=66,n2=-5
+        
+        exchange(&n1, &n2);
+        NSLog(@"n1=%i,n2=%i",n1,n2);    // n1=-5,n2=66
     }
     return 0;
 }
+*/

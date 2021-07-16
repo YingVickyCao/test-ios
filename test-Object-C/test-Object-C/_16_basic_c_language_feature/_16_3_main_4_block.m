@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 
 // 定义块是全局的
-int (^sum)(int , int)=
-^(int a, int b){
-    return a + b;
-};
+//int (^sum)(int , int)=
+//^(int a, int b){
+//    return a + b;
+//};
 
 /*
 int main(int argc, const char* argv[]){

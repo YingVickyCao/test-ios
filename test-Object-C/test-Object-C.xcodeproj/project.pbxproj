@@ -11,6 +11,8 @@
 		280C00C526A06221008FB68C /* _16_3_main_4_block.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C00C426A06221008FB68C /* _16_3_main_4_block.m */; };
 		280C00C726A06B20008FB68C /* _16_4_main_4_structure.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C00C626A06B20008FB68C /* _16_4_main_4_structure.m */; };
 		280C00C926A0F19C008FB68C /* _16_5_main_4_pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C00C826A0F19C008FB68C /* _16_5_main_4_pointer.m */; };
+		280C00CB26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C00CA26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m */; };
+		280C00CD26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C00CC26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m */; };
 		2811D68B2689B0C100EA65A1 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68A2689B0C100EA65A1 /* Fraction.m */; };
 		2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68C2689B54300EA65A1 /* Fraction_main.m */; };
 		2811D690268A989700EA65A1 /* _3_1_main_4_basic_data_type.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68F268A989700EA65A1 /* _3_1_main_4_basic_data_type.m */; };
@@ -78,6 +80,8 @@
 		280C00C426A06221008FB68C /* _16_3_main_4_block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_3_main_4_block.m; sourceTree = "<group>"; };
 		280C00C626A06B20008FB68C /* _16_4_main_4_structure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_4_main_4_structure.m; sourceTree = "<group>"; };
 		280C00C826A0F19C008FB68C /* _16_5_main_4_pointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_5_main_4_pointer.m; sourceTree = "<group>"; };
+		280C00CA26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_5_main_4_pointer_4_struct.m; sourceTree = "<group>"; };
+		280C00CC26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_5_main_4_pointer_4_array.m; sourceTree = "<group>"; };
 		2811D6892689AFFC00EA65A1 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		2811D68A2689B0C100EA65A1 /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		2811D68C2689B54300EA65A1 /* Fraction_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction_main.m; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 				280C00C426A06221008FB68C /* _16_3_main_4_block.m */,
 				280C00C626A06B20008FB68C /* _16_4_main_4_structure.m */,
 				280C00C826A0F19C008FB68C /* _16_5_main_4_pointer.m */,
+				280C00CA26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m */,
+				280C00CC26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m */,
 			);
 			path = _16_basic_c_language_feature;
 			sourceTree = "<group>";
@@ -468,6 +474,7 @@
 				285591E826949F29002E2D12 /* Foo.m in Sources */,
 				28CDE031268EB7F1003ADE3D /* _6_condition_switch.m in Sources */,
 				2885383D269416ED00C92956 /* 3_2_main_for_object_init.m in Sources */,
+				280C00CD26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m in Sources */,
 				280C00C2269FA663008FB68C /* _16_2_main_4_function.m in Sources */,
 				28A29499269C808200423E63 /* _10_main.m in Sources */,
 				288538312693CDB400C92956 /* _2_5_main_4_ dynamic_type.m in Sources */,
@@ -504,6 +511,7 @@
 				282997362694A096008233D5 /* _3_3_main_4_global.m in Sources */,
 				28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */,
 				2885382E2693392200C92956 /* _2_4_main.m in Sources */,
+				280C00CB26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m in Sources */,
 				286C15802692CE5D00903309 /* _2_4_main_4_Square.m in Sources */,
 				28CDE03C268ED26D003ADE3D /* Fraction_2.m in Sources */,
 				28BDC0F2269C064B00B0E2C2 /* MathOps.m in Sources */,
