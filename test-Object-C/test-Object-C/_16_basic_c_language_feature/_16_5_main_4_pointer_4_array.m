@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/*
 // 在函数中，将数组声明为“int 数组”类型，或 “指针”类型
 int arraySum(int *array, int len){
 //int arraySum(int array[], int len){
@@ -48,3 +48,4 @@ int main(int argc, const char* argv[]){
     }
     return 0;
 }
+*/
