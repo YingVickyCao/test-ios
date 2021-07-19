@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
+/*
 // argc : 1
 // *argv    const char *  "/Users/hades/Library/Developer/Xcode/DerivedData/test-Object-C-buxjaoiwvbppvyeelduajdrfbbfc/Build/Products/Debug/test-Object-C"    0x00007ffeefbff770
 int main(int argc, const char* argv[]){
@@ -40,3 +41,4 @@ int main(int argc, const char* argv[]){
     }
     return 0;
 }
+*/
