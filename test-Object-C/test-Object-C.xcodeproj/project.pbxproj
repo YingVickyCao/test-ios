@@ -53,6 +53,7 @@
 		28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A188DB269C70040082E715 /* _11_main_4_category.m */; };
 		28A188E1269C78030082E715 /* _11_main_4_class_extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A188E0269C78030082E715 /* _11_main_4_class_extensions.m */; };
 		28A29499269C808200423E63 /* _10_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A29498269C808200423E63 /* _10_main.m */; };
+		28A80FA526A595AE00E2A05B /* _13_main_4_number_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A80FA426A595AE00E2A05B /* _13_main_4_number_2.m */; };
 		28BDC0F2269C064B00B0E2C2 /* MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDC0F1269C064B00B0E2C2 /* MathOps.m */; };
 		28CDE031268EB7F1003ADE3D /* _6_condition_switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */; };
 		28CDE033268EB830003ADE3D /* _6_condition_Boolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */; };
@@ -139,6 +140,7 @@
 		28A188E4269C7F840082E715 /* RunProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunProtocol.h; sourceTree = "<group>"; };
 		28A188E5269C7FE10082E715 /* ToolProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolProtocol.h; sourceTree = "<group>"; };
 		28A29498269C808200423E63 /* _10_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _10_main.m; sourceTree = "<group>"; };
+		28A80FA426A595AE00E2A05B /* _13_main_4_number_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_main_4_number_2.m; sourceTree = "<group>"; };
 		28BDC0F1269C064B00B0E2C2 /* MathOps.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathOps.m; sourceTree = "<group>"; };
 		28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_switch.m; sourceTree = "<group>"; };
 		28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_Boolean.m; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				28810D0F26A4FE4A00C49A67 /* _13_main_4_number.m */,
+				28A80FA426A595AE00E2A05B /* _13_main_4_number_2.m */,
 			);
 			path = _13_foundation;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				2885382E2693392200C92956 /* _2_4_main.m in Sources */,
 				28810D0B26A3FA6500C49A67 /* _16_6_main_4_unit.m in Sources */,
 				28810D0D26A4059800C49A67 /* _14_8_main_4_sizeof.m in Sources */,
+				28A80FA526A595AE00E2A05B /* _13_main_4_number_2.m in Sources */,
 				280C00CB26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m in Sources */,
 				286C15802692CE5D00903309 /* _2_4_main_4_Square.m in Sources */,
 				28CDE03C268ED26D003ADE3D /* Fraction_2.m in Sources */,
