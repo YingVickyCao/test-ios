@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-/*
+
 int main(int argc,const char * argv[]){
     @autoreleasepool {
         // Create - 对象方法
@@ -16,11 +16,11 @@ int main(int argc,const char * argv[]){
             // 对象方法
             NSMutableString *s1 = [[NSMutableString alloc]initWithString:s];
             NSLog(@"%@",s1);    // s1
-
-            NSMutableString *s2 = [ [NSMutableString alloc]    initWithUTF8String:"S2"];
+            
+            NSMutableString *s2 = [ [NSMutableString alloc]initWithUTF8String:"S2"];
             NSLog(@"%@",s2);    // s2
-
-            NSMutableString *s3 = [[NSMutableString alloc] initWithFormat:@"abc %@ - %d", @"H", 10];
+            
+            NSMutableString *s3 = [[NSMutableString alloc]initWithFormat:@"abc %@ - %d", @"H", 10];
             NSLog(@"%@",s3); // abc H - 10
         }
         
@@ -30,10 +30,10 @@ int main(int argc,const char * argv[]){
             // 对象方法
             NSMutableString *s1 = [NSMutableString stringWithString:s];
             NSLog(@"%@",s1);    // s1
-
+            
             NSMutableString *s2 = [ NSMutableString stringWithUTF8String:"S2"];
             NSLog(@"%@",s2);    // s2
-
+            
             NSMutableString *s3 = [NSMutableString stringWithFormat:@"abc %@ - %d", @"H", 10];
             NSLog(@"%@",s3); // abc H - 10
         }
@@ -71,11 +71,16 @@ int main(int argc,const char * argv[]){
         
         // 改
         {
-            {
-                NSMutableString *s = [NSMutableString stringWithString:@"123456"];
-                [s setString:@"China"];
-                NSLog(@"%@",s); // China
-            }
+            // TODO:
+            NSMutableString *s = [NSMutableString stringWithString:@"123456"];
+//            [s replaceCharactersInRange:NSMakeRange(0, 6) withString:@"China"];
+            [s setString:@"China"];
+            NSLog(@"%@",s); // China
+            
+            // Incompatible pointer types initializing 'NSMutableString *' with an expression of type 'NSString *'
+            // 将字符串变为大写字符
+            NSMutableString *s2 = [s uppercaseString];
+            NSLog(@"%@",s2);    // CHINA
         }
         
         // 查
@@ -85,6 +90,12 @@ int main(int argc,const char * argv[]){
             NSMutableString *s3 = [NSMutableString stringWithString:@"123"];
             NSMutableString *s3_2 =[NSMutableString stringWithString:@"23"];
             
+            NSMutableString *s4 =@"XYZ";
+            // 将一个String 复制到末尾
+            s4 = [s1 stringByAppendingString:s4];
+            NSLog(@"%@",s4);    // 1234567XYZ
+            
+            NSLog(@"%lu",[s1 length]);  // 7
             // 是否相等
             NSLog(@"%d",[s1 isEqualToString:s2]);   // 1 : =
             NSLog(@"%d",[s1 isEqualToString:s3]);   // 0 ：!=
@@ -128,4 +139,3 @@ int main(int argc,const char * argv[]){
     }
     return 0;
 }
-*/

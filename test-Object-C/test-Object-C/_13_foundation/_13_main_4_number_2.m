@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/*
 int main(int argc, const char* argv[]){
     @autoreleasepool {
         NSNumber *myNumber, *floatNumber, *intNumber;
@@ -32,3 +32,4 @@ int main(int argc, const char* argv[]){
     }
     return 0;
 }
+*/

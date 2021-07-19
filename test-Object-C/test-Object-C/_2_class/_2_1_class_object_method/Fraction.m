@@ -37,4 +37,7 @@
 -(int) denominator{
     return denominator;
 }
+- (NSString *)description{
+    return [NSString stringWithFormat:@"%i/%i",numerator,denominator];
+}
 @end

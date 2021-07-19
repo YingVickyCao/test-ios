@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]){
             // Object-C String
             NSString *s2 = @"S2";
             // 对象方法
-            NSString *s3 = [[NSString alloc] initWithString:s2]; // 根据已知 String，创建新String
+            NSString *s3 = [[NSString alloc]initWithString:s2]; // 根据已知 String，创建新String
             NSString *s4 = [[NSString alloc]initWithUTF8String:s1]; // 用C语言 String，创建新String
             NSString *s5 = [[NSString alloc]initWithFormat:@"AB%c - %d - %@",'m',25,@"过好日子"]; // 以格式化的方式，创建新String
             NSLog(@"%@",s2);
