@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/*
 int main(int argc,const char * argv[]){
     @autoreleasepool {
         // Create - 对象方法
@@ -62,25 +62,28 @@ int main(int argc,const char * argv[]){
         
         // 删
         {
-            {
-                NSMutableString *s = [NSMutableString stringWithString:@"123456"];
-                [s deleteCharactersInRange:NSMakeRange(3,2)];
-                NSLog(@"%@",s); // 1236
-            }
+            
+            NSMutableString *s = [NSMutableString stringWithString:@"123456"];
+            [s deleteCharactersInRange:NSMakeRange(3,2)];
+            NSLog(@"%@",s); // 1236
         }
         
         // 改
         {
-            // TODO:
+            // 替换字符
             NSMutableString *s = [NSMutableString stringWithString:@"123456"];
-//            [s replaceCharactersInRange:NSMakeRange(0, 6) withString:@"China"];
-            [s setString:@"China"];
+            [s replaceCharactersInRange:NSMakeRange(0, 6) withString:@"China"];
             NSLog(@"%@",s); // China
             
-            // Incompatible pointer types initializing 'NSMutableString *' with an expression of type 'NSString *'
-            // 将字符串变为大写字符
-            NSMutableString *s2 = [s uppercaseString];
-            NSLog(@"%@",s2);    // CHINA
+            // 直接设置字符
+            NSMutableString *s2 = [NSMutableString stringWithString:@"123456"];
+            [s2 setString:@"China"];
+            NSLog(@"%@",s2); // China
+            
+            //替换所有字符
+            NSMutableString *s3 =[NSMutableString stringWithString: @"ABGAgAobabcXYZabc"];
+            [s3 replaceOccurrencesOfString:@"abc" withString:@"China" options:NSCaseInsensitiveSearch range:NSMakeRange(0,[s3 length])];
+            NSLog(@"%@",s3);    // ABGAgAobChinaXYZChina
         }
         
         // 查
@@ -89,11 +92,6 @@ int main(int argc,const char * argv[]){
             NSMutableString *s2 = [NSMutableString stringWithString:@"1234567"];
             NSMutableString *s3 = [NSMutableString stringWithString:@"123"];
             NSMutableString *s3_2 =[NSMutableString stringWithString:@"23"];
-            
-            NSMutableString *s4 =@"XYZ";
-            // 将一个String 复制到末尾
-            s4 = [s1 stringByAppendingString:s4];
-            NSLog(@"%@",s4);    // 1234567XYZ
             
             NSLog(@"%lu",[s1 length]);  // 7
             // 是否相等
@@ -139,3 +137,4 @@ int main(int argc,const char * argv[]){
     }
     return 0;
 }
+*/
