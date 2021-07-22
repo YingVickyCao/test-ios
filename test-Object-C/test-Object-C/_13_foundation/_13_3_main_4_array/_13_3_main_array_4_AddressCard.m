@@ -17,6 +17,7 @@ int main(int argc,const char* argv[]){
             AddressCard *card = [[AddressCard alloc]init];
             [card setName:name];
             [card setEmail:email];
+            [card setName:@"Tom" andEmail:@"tom@outlook.com"];
             [card print];
         }
         
@@ -26,6 +27,7 @@ int main(int argc,const char* argv[]){
             AddressCard_2 *card = [[AddressCard_2 alloc]init];
             [card setName:name];
             [card setEmail:email];
+            [card setName:@"Tom" andEmail:@"tom@outlook.com"];
             [card print];
         }
     }

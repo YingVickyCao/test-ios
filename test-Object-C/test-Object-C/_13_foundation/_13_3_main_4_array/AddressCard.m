@@ -15,11 +15,24 @@
 }
 
 - (void)setName:(NSString *)theName{
+    NSLog(@"setName invoked,name is %@",theName);
     name = [NSString stringWithString:theName];
 }
 
 - (void)setEmail:(NSString *)theEmail{
+    NSLog(@"setEmail invoked,email is %@",theEmail);
     email = [NSString stringWithString:theEmail];
+}
+
+- (void)setName:(NSString *)theName andEmail:(NSString *)theEmail{
+    // 不可以：这种写法绕过了setter方法，直接为实例变量赋了参数的值。
+//    name = theName;
+//    email = theEmail;
+    
+
+    // 可以:这种写法： self.name = theName 等价于[self setName: theName],使用了seter方法为实例变量赋值。
+    self.name = theName;
+    self.email = theEmail;
 }
 
 - (NSString *)name{

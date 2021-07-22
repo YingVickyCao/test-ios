@@ -15,6 +15,7 @@
 
 -(void) setName: (NSString*) theName;
 -(void) setEmail: (NSString*) theEmail;
+-(void) setName:(NSString *)theName andEmail:(NSString*) theEmail;
 -(NSString*) name;
 -(NSString*) email;
 
