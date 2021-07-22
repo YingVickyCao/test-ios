@@ -50,6 +50,9 @@
 		28853838269410B600C92956 /* _7_2_main_4_try_catch.m in Sources */ = {isa = PBXBuildFile; fileRef = 28853837269410B600C92956 /* _7_2_main_4_try_catch.m */; };
 		2885383D269416ED00C92956 /* 3_2_main_for_object_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885383B269416ED00C92956 /* 3_2_main_for_object_init.m */; };
 		2885383E269416ED00C92956 /* Fraction_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885383C269416ED00C92956 /* Fraction_3.m */; };
+		2891A0B626A8E2F200ED042A /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891A0B526A8E2F200ED042A /* AddressCard.m */; };
+		2891A0B826A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891A0B726A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m */; };
+		2891A0BB26A8E73600ED042A /* AddressCard_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891A0BA26A8E73600ED042A /* AddressCard_2.m */; };
 		28A0381226A5AA6600F5E312 /* _13_2_main_4_string_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0380E26A5AA6600F5E312 /* _13_2_main_4_string_2.m */; };
 		28A0381426A5AA6600F5E312 /* _13_2_main_4_string_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381026A5AA6600F5E312 /* _13_2_main_4_string_mutable.m */; };
 		28A0381526A5AA6600F5E312 /* _13_2_main_4_string_convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381126A5AA6600F5E312 /* _13_2_main_4_string_convert.m */; };
@@ -138,6 +141,10 @@
 		2885383A269416ED00C92956 /* Fraction_3_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction_3_.h; sourceTree = "<group>"; };
 		2885383B269416ED00C92956 /* 3_2_main_for_object_init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3_2_main_for_object_init.m; sourceTree = "<group>"; };
 		2885383C269416ED00C92956 /* Fraction_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction_3.m; sourceTree = "<group>"; };
+		2891A0B526A8E2F200ED042A /* AddressCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
+		2891A0B726A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_main_array_4_AddressCard.m; sourceTree = "<group>"; };
+		2891A0B926A8E72900ED042A /* AddressCard_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressCard_2.h; sourceTree = "<group>"; };
+		2891A0BA26A8E73600ED042A /* AddressCard_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCard_2.m; sourceTree = "<group>"; };
 		28A0380E26A5AA6600F5E312 /* _13_2_main_4_string_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _13_2_main_4_string_2.m; path = "../../../test-Object-C_backup/test-Object-C/_2_NSString/_13_2_main_4_string_2.m"; sourceTree = "<group>"; };
 		28A0381026A5AA6600F5E312 /* _13_2_main_4_string_mutable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _13_2_main_4_string_mutable.m; path = "../../../test-Object-C_backup/test-Object-C/_2_NSString/_13_2_main_4_string_mutable.m"; sourceTree = "<group>"; };
 		28A0381126A5AA6600F5E312 /* _13_2_main_4_string_convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _13_2_main_4_string_convert.m; path = "../../../test-Object-C_backup/test-Object-C/_2_NSString/_13_2_main_4_string_convert.m"; sourceTree = "<group>"; };
@@ -165,6 +172,7 @@
 		28D4DE18269D064300AA6F40 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		28D95257268607E100B833B7 /* test-Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D9525A268607E100B833B7 /* _1_first_app.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_first_app.m; sourceTree = "<group>"; };
+		28DDDE5A26A8E15300D06214 /* AddressCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = "<group>"; };
 		28E0A27926A64769009C6425 /* _13_3_main_4_array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_main_4_array.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,6 +324,11 @@
 				28A0381126A5AA6600F5E312 /* _13_2_main_4_string_convert.m */,
 				28A0381026A5AA6600F5E312 /* _13_2_main_4_string_mutable.m */,
 				28E0A27926A64769009C6425 /* _13_3_main_4_array.m */,
+				28DDDE5A26A8E15300D06214 /* AddressCard.h */,
+				2891A0B526A8E2F200ED042A /* AddressCard.m */,
+				2891A0B726A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m */,
+				2891A0B926A8E72900ED042A /* AddressCard_2.h */,
+				2891A0BA26A8E73600ED042A /* AddressCard_2.m */,
 			);
 			path = _13_foundation;
 			sourceTree = "<group>";
@@ -520,6 +533,7 @@
 				286C157B2692CC5400903309 /* _2_4_main_4_Rectangle.m in Sources */,
 				2833B7B5268D3E7C000A4CF1 /* _4_main_for_expression.m in Sources */,
 				28A188E1269C78030082E715 /* _11_main_4_class_extensions.m in Sources */,
+				2891A0B826A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m in Sources */,
 				28810D1026A4FE4A00C49A67 /* _13_1_main_4_number_1.m in Sources */,
 				280C00C726A06B20008FB68C /* _16_4_main_4_structure.m in Sources */,
 				286C15712692C57F00903309 /* ClassA.m in Sources */,
@@ -544,8 +558,10 @@
 				28A0381526A5AA6600F5E312 /* _13_2_main_4_string_convert.m in Sources */,
 				286C157E2692CD8A00903309 /* Square.m in Sources */,
 				2833B7C3268E81AE000A4CF1 /* _6_condition_if.m in Sources */,
+				2891A0BB26A8E73600ED042A /* AddressCard_2.m in Sources */,
 				2833B7BA268D8C1E000A4CF1 /* _5_loop_while.m in Sources */,
 				2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */,
+				2891A0B626A8E2F200ED042A /* AddressCard.m in Sources */,
 				282997362694A096008233D5 /* _3_3_main_4_global.m in Sources */,
 				28E0A27A26A64769009C6425 /* _13_3_main_4_array.m in Sources */,
 				28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */,
