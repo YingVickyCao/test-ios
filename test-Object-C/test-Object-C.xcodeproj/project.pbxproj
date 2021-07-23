@@ -41,7 +41,7 @@
 		287E504D26951E9900B005F7 /* _3_4_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E504C26951E9900B005F7 /* _3_4_main.m */; };
 		28810D0B26A3FA6500C49A67 /* _16_6_main_4_unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 28810D0A26A3FA6500C49A67 /* _16_6_main_4_unit.m */; };
 		28810D0D26A4059800C49A67 /* _14_8_main_4_sizeof.m in Sources */ = {isa = PBXBuildFile; fileRef = 28810D0C26A4059800C49A67 /* _14_8_main_4_sizeof.m */; };
-		28810D1026A4FE4A00C49A67 /* _13_1_main_4_number_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 28810D0F26A4FE4A00C49A67 /* _13_1_main_4_number_1.m */; };
+		28810D1026A4FE4A00C49A67 /* _13_1_number_main_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 28810D0F26A4FE4A00C49A67 /* _13_1_number_main_1.m */; };
 		2885382C2693385B00C92956 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885382B2693385B00C92956 /* Complex.m */; };
 		2885382E2693392200C92956 /* _2_4_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885382D2693392200C92956 /* _2_4_main.m */; };
 		288538312693CDB400C92956 /* _2_5_main_4_ dynamic_type.m in Sources */ = {isa = PBXBuildFile; fileRef = 288538302693CDB400C92956 /* _2_5_main_4_ dynamic_type.m */; };
@@ -51,16 +51,21 @@
 		2885383D269416ED00C92956 /* 3_2_main_for_object_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885383B269416ED00C92956 /* 3_2_main_for_object_init.m */; };
 		2885383E269416ED00C92956 /* Fraction_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2885383C269416ED00C92956 /* Fraction_3.m */; };
 		2891A0B626A8E2F200ED042A /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891A0B526A8E2F200ED042A /* AddressCard.m */; };
-		2891A0B826A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891A0B726A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m */; };
+		2891A0B826A8E4A300ED042A /* _13_3_array_main_4_AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891A0B726A8E4A300ED042A /* _13_3_array_main_4_AddressCard.m */; };
 		2891A0BB26A8E73600ED042A /* AddressCard_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2891A0BA26A8E73600ED042A /* AddressCard_2.m */; };
-		28A0381226A5AA6600F5E312 /* _13_2_main_4_string_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0380E26A5AA6600F5E312 /* _13_2_main_4_string_2.m */; };
-		28A0381426A5AA6600F5E312 /* _13_2_main_4_string_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381026A5AA6600F5E312 /* _13_2_main_4_string_mutable.m */; };
-		28A0381526A5AA6600F5E312 /* _13_2_main_4_string_convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381126A5AA6600F5E312 /* _13_2_main_4_string_convert.m */; };
+		289B4DBF26AA34E6008A4B29 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DBE26AA34E6008A4B29 /* AddressBook.m */; };
+		289B4DC126AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC026AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m */; };
+		289B4DC326AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC226AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m */; };
+		289B4DC526AA3BE3008A4B29 /* _13_3_array_main_4_loop.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC426AA3BE3008A4B29 /* _13_3_array_main_4_loop.m */; };
+		289B4DCA26AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC926AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m */; };
+		28A0381226A5AA6600F5E312 /* _13_2_string_main_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0380E26A5AA6600F5E312 /* _13_2_string_main_2.m */; };
+		28A0381426A5AA6600F5E312 /* _13_2_string_main_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381026A5AA6600F5E312 /* _13_2_string_main_mutable.m */; };
+		28A0381526A5AA6600F5E312 /* _13_2_string_main_convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381126A5AA6600F5E312 /* _13_2_string_main_convert.m */; };
 		28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A188DB269C70040082E715 /* _11_main_4_category.m */; };
 		28A188E1269C78030082E715 /* _11_main_4_class_extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A188E0269C78030082E715 /* _11_main_4_class_extensions.m */; };
-		28A24F9526A5994100C64309 /* _13_2_main_4_string_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A24F9426A5994100C64309 /* _13_2_main_4_string_1.m */; };
+		28A24F9526A5994100C64309 /* _13_2_string_main_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A24F9426A5994100C64309 /* _13_2_string_main_1.m */; };
 		28A29499269C808200423E63 /* _10_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A29498269C808200423E63 /* _10_main.m */; };
-		28A80FA526A595AE00E2A05B /* _13_1_main_4_number_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A80FA426A595AE00E2A05B /* _13_1_main_4_number_2.m */; };
+		28A80FA526A595AE00E2A05B /* _13_1_number_main_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A80FA426A595AE00E2A05B /* _13_1_number_main_2.m */; };
 		28BDC0F2269C064B00B0E2C2 /* MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDC0F1269C064B00B0E2C2 /* MathOps.m */; };
 		28CDE031268EB7F1003ADE3D /* _6_condition_switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */; };
 		28CDE033268EB830003ADE3D /* _6_condition_Boolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */; };
@@ -72,7 +77,7 @@
 		28D0F9FF269C02F800C5F5B1 /* Fraction_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D0F9FE269C02F800C5F5B1 /* Fraction_4.m */; };
 		28D4DE19269D064300AA6F40 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4DE18269D064300AA6F40 /* Car.m */; };
 		28D9525B268607E100B833B7 /* _1_first_app.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D9525A268607E100B833B7 /* _1_first_app.m */; };
-		28E0A27A26A64769009C6425 /* _13_3_main_4_array.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0A27926A64769009C6425 /* _13_3_main_4_array.m */; };
+		28E0A27A26A64769009C6425 /* _13_3_array_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0A27926A64769009C6425 /* _13_3_array_main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -130,7 +135,7 @@
 		287E504C26951E9900B005F7 /* _3_4_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_4_main.m; sourceTree = "<group>"; };
 		28810D0A26A3FA6500C49A67 /* _16_6_main_4_unit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_6_main_4_unit.m; sourceTree = "<group>"; };
 		28810D0C26A4059800C49A67 /* _14_8_main_4_sizeof.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _14_8_main_4_sizeof.m; sourceTree = "<group>"; };
-		28810D0F26A4FE4A00C49A67 /* _13_1_main_4_number_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_1_main_4_number_1.m; sourceTree = "<group>"; };
+		28810D0F26A4FE4A00C49A67 /* _13_1_number_main_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_1_number_main_1.m; sourceTree = "<group>"; };
 		2885382A269337AC00C92956 /* Complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
 		2885382B2693385B00C92956 /* Complex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
 		2885382D2693392200C92956 /* _2_4_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_4_main.m; sourceTree = "<group>"; };
@@ -142,22 +147,27 @@
 		2885383B269416ED00C92956 /* 3_2_main_for_object_init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 3_2_main_for_object_init.m; sourceTree = "<group>"; };
 		2885383C269416ED00C92956 /* Fraction_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction_3.m; sourceTree = "<group>"; };
 		2891A0B526A8E2F200ED042A /* AddressCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
-		2891A0B726A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_main_array_4_AddressCard.m; sourceTree = "<group>"; };
+		2891A0B726A8E4A300ED042A /* _13_3_array_main_4_AddressCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_array_main_4_AddressCard.m; sourceTree = "<group>"; };
 		2891A0B926A8E72900ED042A /* AddressCard_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressCard_2.h; sourceTree = "<group>"; };
 		2891A0BA26A8E73600ED042A /* AddressCard_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCard_2.m; sourceTree = "<group>"; };
 		2891A0BD26A9A8E600ED042A /* AddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
-		28A0380E26A5AA6600F5E312 /* _13_2_main_4_string_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _13_2_main_4_string_2.m; path = "../../../test-Object-C_backup/test-Object-C/_2_NSString/_13_2_main_4_string_2.m"; sourceTree = "<group>"; };
-		28A0381026A5AA6600F5E312 /* _13_2_main_4_string_mutable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _13_2_main_4_string_mutable.m; path = "../../../test-Object-C_backup/test-Object-C/_2_NSString/_13_2_main_4_string_mutable.m"; sourceTree = "<group>"; };
-		28A0381126A5AA6600F5E312 /* _13_2_main_4_string_convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _13_2_main_4_string_convert.m; path = "../../../test-Object-C_backup/test-Object-C/_2_NSString/_13_2_main_4_string_convert.m"; sourceTree = "<group>"; };
+		289B4DBE26AA34E6008A4B29 /* AddressBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		289B4DC026AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_array_main_4_AddressCard2.m; sourceTree = "<group>"; };
+		289B4DC226AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_array_main_4_AddressBook.m; sourceTree = "<group>"; };
+		289B4DC426AA3BE3008A4B29 /* _13_3_array_main_4_loop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_array_main_4_loop.m; sourceTree = "<group>"; };
+		289B4DC926AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_dictionary_main_4_loop.m; sourceTree = "<group>"; };
+		28A0380E26A5AA6600F5E312 /* _13_2_string_main_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _13_2_string_main_2.m; sourceTree = "<group>"; };
+		28A0381026A5AA6600F5E312 /* _13_2_string_main_mutable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _13_2_string_main_mutable.m; sourceTree = "<group>"; };
+		28A0381126A5AA6600F5E312 /* _13_2_string_main_convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _13_2_string_main_convert.m; sourceTree = "<group>"; };
 		28A188DB269C70040082E715 /* _11_main_4_category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _11_main_4_category.m; sourceTree = "<group>"; };
 		28A188DD269C76450082E715 /* GraphicObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicObject.h; sourceTree = "<group>"; };
 		28A188E0269C78030082E715 /* _11_main_4_class_extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _11_main_4_class_extensions.m; sourceTree = "<group>"; };
 		28A188E3269C7F380082E715 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		28A188E4269C7F840082E715 /* RunProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunProtocol.h; sourceTree = "<group>"; };
 		28A188E5269C7FE10082E715 /* ToolProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolProtocol.h; sourceTree = "<group>"; };
-		28A24F9426A5994100C64309 /* _13_2_main_4_string_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_2_main_4_string_1.m; sourceTree = "<group>"; };
+		28A24F9426A5994100C64309 /* _13_2_string_main_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_2_string_main_1.m; sourceTree = "<group>"; };
 		28A29498269C808200423E63 /* _10_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _10_main.m; sourceTree = "<group>"; };
-		28A80FA426A595AE00E2A05B /* _13_1_main_4_number_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_1_main_4_number_2.m; sourceTree = "<group>"; };
+		28A80FA426A595AE00E2A05B /* _13_1_number_main_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_1_number_main_2.m; sourceTree = "<group>"; };
 		28BDC0F1269C064B00B0E2C2 /* MathOps.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathOps.m; sourceTree = "<group>"; };
 		28CDE030268EB7F1003ADE3D /* _6_condition_switch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_switch.m; sourceTree = "<group>"; };
 		28CDE032268EB830003ADE3D /* _6_condition_Boolean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_Boolean.m; sourceTree = "<group>"; };
@@ -174,7 +184,7 @@
 		28D95257268607E100B833B7 /* test-Object-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-Object-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D9525A268607E100B833B7 /* _1_first_app.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_first_app.m; sourceTree = "<group>"; };
 		28DDDE5A26A8E15300D06214 /* AddressCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = "<group>"; };
-		28E0A27926A64769009C6425 /* _13_3_main_4_array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_main_4_array.m; sourceTree = "<group>"; };
+		28E0A27926A64769009C6425 /* _13_3_array_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_array_main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,13 +328,10 @@
 		28810D0E26A4FE2600C49A67 /* _13_foundation */ = {
 			isa = PBXGroup;
 			children = (
-				2891A0BC26A9A8B200ED042A /* _13_3_main_4_array */,
-				28810D0F26A4FE4A00C49A67 /* _13_1_main_4_number_1.m */,
-				28A80FA426A595AE00E2A05B /* _13_1_main_4_number_2.m */,
-				28A24F9426A5994100C64309 /* _13_2_main_4_string_1.m */,
-				28A0380E26A5AA6600F5E312 /* _13_2_main_4_string_2.m */,
-				28A0381126A5AA6600F5E312 /* _13_2_main_4_string_convert.m */,
-				28A0381026A5AA6600F5E312 /* _13_2_main_4_string_mutable.m */,
+				289B4DC826AA3DF6008A4B29 /* _13_2_string */,
+				289B4DC726AA3DEB008A4B29 /* _13_1_number */,
+				289B4DC626AA3DC0008A4B29 /* _13_5_dictionary */,
+				2891A0BC26A9A8B200ED042A /* _13_3_array */,
 			);
 			path = _13_foundation;
 			sourceTree = "<group>";
@@ -369,18 +376,50 @@
 			path = _3_data_type;
 			sourceTree = "<group>";
 		};
-		2891A0BC26A9A8B200ED042A /* _13_3_main_4_array */ = {
+		2891A0BC26A9A8B200ED042A /* _13_3_array */ = {
 			isa = PBXGroup;
 			children = (
-				28E0A27926A64769009C6425 /* _13_3_main_4_array.m */,
+				28E0A27926A64769009C6425 /* _13_3_array_main.m */,
 				28DDDE5A26A8E15300D06214 /* AddressCard.h */,
 				2891A0B526A8E2F200ED042A /* AddressCard.m */,
-				2891A0B726A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m */,
+				2891A0B726A8E4A300ED042A /* _13_3_array_main_4_AddressCard.m */,
 				2891A0B926A8E72900ED042A /* AddressCard_2.h */,
 				2891A0BA26A8E73600ED042A /* AddressCard_2.m */,
 				2891A0BD26A9A8E600ED042A /* AddressBook.h */,
+				289B4DBE26AA34E6008A4B29 /* AddressBook.m */,
+				289B4DC026AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m */,
+				289B4DC226AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m */,
+				289B4DC426AA3BE3008A4B29 /* _13_3_array_main_4_loop.m */,
 			);
-			path = _13_3_main_4_array;
+			path = _13_3_array;
+			sourceTree = "<group>";
+		};
+		289B4DC626AA3DC0008A4B29 /* _13_5_dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				289B4DC926AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m */,
+			);
+			path = _13_5_dictionary;
+			sourceTree = "<group>";
+		};
+		289B4DC726AA3DEB008A4B29 /* _13_1_number */ = {
+			isa = PBXGroup;
+			children = (
+				28810D0F26A4FE4A00C49A67 /* _13_1_number_main_1.m */,
+				28A80FA426A595AE00E2A05B /* _13_1_number_main_2.m */,
+			);
+			path = _13_1_number;
+			sourceTree = "<group>";
+		};
+		289B4DC826AA3DF6008A4B29 /* _13_2_string */ = {
+			isa = PBXGroup;
+			children = (
+				28A24F9426A5994100C64309 /* _13_2_string_main_1.m */,
+				28A0380E26A5AA6600F5E312 /* _13_2_string_main_2.m */,
+				28A0381126A5AA6600F5E312 /* _13_2_string_main_convert.m */,
+				28A0381026A5AA6600F5E312 /* _13_2_string_main_mutable.m */,
+			);
+			path = _13_2_string;
 			sourceTree = "<group>";
 		};
 		28A188E2269C7DAF0082E715 /* _10_protocol */ = {
@@ -539,12 +578,12 @@
 				28CDE035268ECA7C003ADE3D /* _6_conditional_operator.m in Sources */,
 				2813A0EE269F235D0062F9AF /* _16_1_main_4_array.m in Sources */,
 				28D9525B268607E100B833B7 /* _1_first_app.m in Sources */,
-				28A0381226A5AA6600F5E312 /* _13_2_main_4_string_2.m in Sources */,
+				28A0381226A5AA6600F5E312 /* _13_2_string_main_2.m in Sources */,
 				286C157B2692CC5400903309 /* _2_4_main_4_Rectangle.m in Sources */,
 				2833B7B5268D3E7C000A4CF1 /* _4_main_for_expression.m in Sources */,
 				28A188E1269C78030082E715 /* _11_main_4_class_extensions.m in Sources */,
-				2891A0B826A8E4A300ED042A /* _13_3_main_array_4_AddressCard.m in Sources */,
-				28810D1026A4FE4A00C49A67 /* _13_1_main_4_number_1.m in Sources */,
+				2891A0B826A8E4A300ED042A /* _13_3_array_main_4_AddressCard.m in Sources */,
+				28810D1026A4FE4A00C49A67 /* _13_1_number_main_1.m in Sources */,
 				280C00C726A06B20008FB68C /* _16_4_main_4_structure.m in Sources */,
 				286C15712692C57F00903309 /* ClassA.m in Sources */,
 				2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */,
@@ -553,6 +592,7 @@
 				28853838269410B600C92956 /* _7_2_main_4_try_catch.m in Sources */,
 				280C00C926A0F19C008FB68C /* _16_5_main_4_pointer.m in Sources */,
 				2813A0EB269DC35D0062F9AF /* _12_main_for_define.m in Sources */,
+				289B4DBF26AA34E6008A4B29 /* AddressBook.m in Sources */,
 				2811D68B2689B0C100EA65A1 /* Fraction.m in Sources */,
 				286C15792692CB9C00903309 /* Rectangle.m in Sources */,
 				28CDE03E268ED3B4003ADE3D /* Fraction_2_main.m in Sources */,
@@ -565,7 +605,7 @@
 				28D0F9FF269C02F800C5F5B1 /* Fraction_4.m in Sources */,
 				28CDE033268EB830003ADE3D /* _6_condition_Boolean.m in Sources */,
 				286C15742692C69F00903309 /* ClassB.m in Sources */,
-				28A0381526A5AA6600F5E312 /* _13_2_main_4_string_convert.m in Sources */,
+				28A0381526A5AA6600F5E312 /* _13_2_string_main_convert.m in Sources */,
 				286C157E2692CD8A00903309 /* Square.m in Sources */,
 				2833B7C3268E81AE000A4CF1 /* _6_condition_if.m in Sources */,
 				2891A0BB26A8E73600ED042A /* AddressCard_2.m in Sources */,
@@ -573,16 +613,19 @@
 				2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */,
 				2891A0B626A8E2F200ED042A /* AddressCard.m in Sources */,
 				282997362694A096008233D5 /* _3_3_main_4_global.m in Sources */,
-				28E0A27A26A64769009C6425 /* _13_3_main_4_array.m in Sources */,
+				28E0A27A26A64769009C6425 /* _13_3_array_main.m in Sources */,
 				28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */,
 				2885382E2693392200C92956 /* _2_4_main.m in Sources */,
 				28810D0B26A3FA6500C49A67 /* _16_6_main_4_unit.m in Sources */,
 				28810D0D26A4059800C49A67 /* _14_8_main_4_sizeof.m in Sources */,
-				28A24F9526A5994100C64309 /* _13_2_main_4_string_1.m in Sources */,
-				28A0381426A5AA6600F5E312 /* _13_2_main_4_string_mutable.m in Sources */,
-				28A80FA526A595AE00E2A05B /* _13_1_main_4_number_2.m in Sources */,
+				28A24F9526A5994100C64309 /* _13_2_string_main_1.m in Sources */,
+				28A0381426A5AA6600F5E312 /* _13_2_string_main_mutable.m in Sources */,
+				28A80FA526A595AE00E2A05B /* _13_1_number_main_2.m in Sources */,
+				289B4DCA26AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m in Sources */,
 				280C00CB26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m in Sources */,
+				289B4DC326AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m in Sources */,
 				286C15802692CE5D00903309 /* _2_4_main_4_Square.m in Sources */,
+				289B4DC126AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m in Sources */,
 				28CDE03C268ED26D003ADE3D /* Fraction_2.m in Sources */,
 				28BDC0F2269C064B00B0E2C2 /* MathOps.m in Sources */,
 				2813A0E5269DB9DE0062F9AF /* _2_6_main.m in Sources */,
@@ -591,6 +634,7 @@
 				2833B7BC268D8F62000A4CF1 /* _5_loop_do.m in Sources */,
 				2813A0E8269DBB470062F9AF /* Square_2.m in Sources */,
 				286C15762692C6E500903309 /* 2_4_main.m in Sources */,
+				289B4DC526AA3BE3008A4B29 /* _13_3_array_main_4_loop.m in Sources */,
 				28D0F9FB2695BC3A00C5F5B1 /* _4_main_for_byte_operator.m in Sources */,
 				2833B7B7268D6921000A4CF1 /* _5_loop_for.m in Sources */,
 				286C15832692DC7300903309 /* XYPoint.m in Sources */,
