@@ -29,4 +29,19 @@
     NSLog(@"| %-20s | ",[email UTF8String]);
 }
 
+// isEqual 从NSObject继承，此处为覆盖isEqual方法
+- (BOOL)isEqual:(AddressCard_2 *)theCard{
+    if (theCard == nil) {
+        return FALSE;
+    }
+    
+    if ([name isEqualToString:theCard.name] == YES && [email isEqualToString:theCard.email] == YES) {
+        return TRUE;
+    }
+    return FALSE;
+}
+- (NSComparisonResult)compareNames:(id)element{
+    return [name compare:[element name]];
+}
+
 @end

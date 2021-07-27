@@ -96,6 +96,10 @@
                 NSLog(@"for when i =%i",i );
             }
         }
+ 
+        // 快速枚举
+        // for (AddressCard_2 *theCard in book)
+        // AddressBook.m
     }
     return 0;
 }*/

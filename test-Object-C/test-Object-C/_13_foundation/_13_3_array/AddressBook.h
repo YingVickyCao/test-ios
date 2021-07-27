@@ -18,11 +18,16 @@
 
 -(instancetype) initWithName:(NSString*) name;
 -(void) addCard : (AddressCard_2 *)theCard;
+-(void) removeCard : (AddressCard_2 *)theCard;
+-(void) removeCard2 : (AddressCard_2 *)theCard;
 -(unsigned long) count;
 // 遍历数组
 -(void) list;
 // 遍历数组
 -(void) list2;
+-(AddressCard_2 *) lookup:(NSString *)theName;
+-(NSArray<AddressCard_2 *> *) lookupMatches:(NSString *)theName;
+-(void) sort;
 
 @end
 
