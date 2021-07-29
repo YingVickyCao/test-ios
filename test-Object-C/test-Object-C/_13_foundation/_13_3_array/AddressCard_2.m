@@ -41,7 +41,10 @@
     return FALSE;
 }
 - (NSComparisonResult)compareNames:(id)element{
-    return [name compare:[element name]];
+    // 默认按升序排序
+    // return [name compare:[element name]];
+     // 按降序排序
+    return [name compare:[element name]] == kCFCompareLessThan;
 }
 
 @end

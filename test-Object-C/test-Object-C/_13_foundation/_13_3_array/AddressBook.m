@@ -51,6 +51,7 @@
         NSLog(@"%-20s     %-20s", [theCard.name UTF8String], [theCard.email UTF8String]);
     }
 }
+
 // 遍历数组：enumerateObjectsUsingBlock
 - (void)list2{
     [book enumerateObjectsUsingBlock:^(AddressCard_2 *theCard,NSUInteger idx,BOOL *stop){
@@ -79,7 +80,18 @@
 }
 
 - (void)sort{
-    [book sortUsingSelector:@selector(compareNames:)];
+    // 使用selector排序名：需要为比较的对象添加比较方法 compareNames
+//    [book sortUsingSelector:@selector(compareNames:)];
+    
+    // 使用区块排序NSMutableArray：不需要为比较的对象添加比较方法
+    // 性能和sortUsingSelector一样，没有提升性能
+//    [book sortUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+//        return [obj1 compare:obj2];
+//    }];
+//
+    // 使用区块排序NSMutableArray：性能有提升
+    [book sortUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        return [[obj1 name] compare: [obj2 name]];
+    }];
 }
-
 @end

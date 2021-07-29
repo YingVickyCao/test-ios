@@ -7,9 +7,9 @@
 //
 
 #import "AddressBook.h"
-
+/*
 int main(int argc, const char *argv[]){
-    @autoreleasepool {
+    @autorele    asepool {
         AddressCard_2 *card1 = [[AddressCard_2 alloc]init];
         [card1 setName:@"Name 1" andEmail:@"name1@outlook.com"];
         
@@ -71,4 +71,4 @@ int main(int argc, const char *argv[]){
         
     }
     return 0;
-}
+}*/

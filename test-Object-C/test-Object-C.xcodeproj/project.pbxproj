@@ -29,6 +29,7 @@
 		2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */; };
 		2833B7C3268E81AE000A4CF1 /* _6_condition_if.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */; };
 		285591E826949F29002E2D12 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 285591E726949F29002E2D12 /* Foo.m */; };
+		286518DF26B2D35600293523 /* _13_3_Array_main_4_NSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */; };
 		286C15712692C57F00903309 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C15702692C57F00903309 /* ClassA.m */; };
 		286C15742692C69F00903309 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C15732692C69F00903309 /* ClassB.m */; };
 		286C15762692C6E500903309 /* 2_4_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C15752692C6E500903309 /* 2_4_main.m */; };
@@ -118,6 +119,7 @@
 		2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_if.m; sourceTree = "<group>"; };
 		285591E426949E37002E2D12 /* Foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
 		285591E726949F29002E2D12 /* Foo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
+		286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_Array_main_4_NSValue.m; sourceTree = "<group>"; };
 		286C156F2692B84D00903309 /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
 		286C15702692C57F00903309 /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
 		286C15722692C64000903309 /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
@@ -389,6 +391,7 @@
 				289B4DBE26AA34E6008A4B29 /* AddressBook.m */,
 				289B4DC026AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m */,
 				289B4DC226AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m */,
+				286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */,
 				289B4DC426AA3BE3008A4B29 /* _13_3_array_main_4_loop.m */,
 			);
 			path = _13_3_array;
@@ -614,6 +617,7 @@
 				2891A0B626A8E2F200ED042A /* AddressCard.m in Sources */,
 				282997362694A096008233D5 /* _3_3_main_4_global.m in Sources */,
 				28E0A27A26A64769009C6425 /* _13_3_array_main.m in Sources */,
+				286518DF26B2D35600293523 /* _13_3_Array_main_4_NSValue.m in Sources */,
 				28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */,
 				2885382E2693392200C92956 /* _2_4_main.m in Sources */,
 				28810D0B26A3FA6500C49A67 /* _16_6_main_4_unit.m in Sources */,
