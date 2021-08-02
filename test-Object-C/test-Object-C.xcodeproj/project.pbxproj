@@ -28,8 +28,10 @@
 		2833B7BE268D929C000A4CF1 /* _5_break.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BD268D929C000A4CF1 /* _5_break.m */; };
 		2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */; };
 		2833B7C3268E81AE000A4CF1 /* _6_condition_if.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */; };
+		2840430826B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430726B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m */; };
 		285591E826949F29002E2D12 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 285591E726949F29002E2D12 /* Foo.m */; };
 		286518DF26B2D35600293523 /* _13_3_Array_main_4_NSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */; };
+		286518E126B2E31D00293523 /* _13_4_dictionary_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518E026B2E31D00293523 /* _13_4_dictionary_main.m */; };
 		286C15712692C57F00903309 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C15702692C57F00903309 /* ClassA.m */; };
 		286C15742692C69F00903309 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C15732692C69F00903309 /* ClassB.m */; };
 		286C15762692C6E500903309 /* 2_4_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C15752692C6E500903309 /* 2_4_main.m */; };
@@ -58,7 +60,7 @@
 		289B4DC126AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC026AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m */; };
 		289B4DC326AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC226AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m */; };
 		289B4DC526AA3BE3008A4B29 /* _13_3_array_main_4_loop.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC426AA3BE3008A4B29 /* _13_3_array_main_4_loop.m */; };
-		289B4DCA26AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC926AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m */; };
+		289B4DCA26AA3E4F008A4B29 /* _13_4_dictionary_main_4_loop.m in Sources */ = {isa = PBXBuildFile; fileRef = 289B4DC926AA3E4F008A4B29 /* _13_4_dictionary_main_4_loop.m */; };
 		28A0381226A5AA6600F5E312 /* _13_2_string_main_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0380E26A5AA6600F5E312 /* _13_2_string_main_2.m */; };
 		28A0381426A5AA6600F5E312 /* _13_2_string_main_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381026A5AA6600F5E312 /* _13_2_string_main_mutable.m */; };
 		28A0381526A5AA6600F5E312 /* _13_2_string_main_convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381126A5AA6600F5E312 /* _13_2_string_main_convert.m */; };
@@ -117,9 +119,11 @@
 		2833B7BD268D929C000A4CF1 /* _5_break.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_break.m; sourceTree = "<group>"; };
 		2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_continue.m; sourceTree = "<group>"; };
 		2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_if.m; sourceTree = "<group>"; };
+		2840430726B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_4_dictionary_main_4_mutable.m; sourceTree = "<group>"; };
 		285591E426949E37002E2D12 /* Foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
 		285591E726949F29002E2D12 /* Foo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 		286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_Array_main_4_NSValue.m; sourceTree = "<group>"; };
+		286518E026B2E31D00293523 /* _13_4_dictionary_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_4_dictionary_main.m; sourceTree = "<group>"; };
 		286C156F2692B84D00903309 /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
 		286C15702692C57F00903309 /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
 		286C15722692C64000903309 /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
@@ -157,7 +161,7 @@
 		289B4DC026AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_array_main_4_AddressCard2.m; sourceTree = "<group>"; };
 		289B4DC226AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_array_main_4_AddressBook.m; sourceTree = "<group>"; };
 		289B4DC426AA3BE3008A4B29 /* _13_3_array_main_4_loop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_array_main_4_loop.m; sourceTree = "<group>"; };
-		289B4DC926AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_dictionary_main_4_loop.m; sourceTree = "<group>"; };
+		289B4DC926AA3E4F008A4B29 /* _13_4_dictionary_main_4_loop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_4_dictionary_main_4_loop.m; sourceTree = "<group>"; };
 		28A0380E26A5AA6600F5E312 /* _13_2_string_main_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _13_2_string_main_2.m; sourceTree = "<group>"; };
 		28A0381026A5AA6600F5E312 /* _13_2_string_main_mutable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _13_2_string_main_mutable.m; sourceTree = "<group>"; };
 		28A0381126A5AA6600F5E312 /* _13_2_string_main_convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _13_2_string_main_convert.m; sourceTree = "<group>"; };
@@ -332,7 +336,7 @@
 			children = (
 				289B4DC826AA3DF6008A4B29 /* _13_2_string */,
 				289B4DC726AA3DEB008A4B29 /* _13_1_number */,
-				289B4DC626AA3DC0008A4B29 /* _13_5_dictionary */,
+				289B4DC626AA3DC0008A4B29 /* _13_4_dictionary */,
 				2891A0BC26A9A8B200ED042A /* _13_3_array */,
 			);
 			path = _13_foundation;
@@ -397,12 +401,14 @@
 			path = _13_3_array;
 			sourceTree = "<group>";
 		};
-		289B4DC626AA3DC0008A4B29 /* _13_5_dictionary */ = {
+		289B4DC626AA3DC0008A4B29 /* _13_4_dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				289B4DC926AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m */,
+				289B4DC926AA3E4F008A4B29 /* _13_4_dictionary_main_4_loop.m */,
+				286518E026B2E31D00293523 /* _13_4_dictionary_main.m */,
+				2840430726B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m */,
 			);
-			path = _13_5_dictionary;
+			path = _13_4_dictionary;
 			sourceTree = "<group>";
 		};
 		289B4DC726AA3DEB008A4B29 /* _13_1_number */ = {
@@ -588,6 +594,7 @@
 				2891A0B826A8E4A300ED042A /* _13_3_array_main_4_AddressCard.m in Sources */,
 				28810D1026A4FE4A00C49A67 /* _13_1_number_main_1.m in Sources */,
 				280C00C726A06B20008FB68C /* _16_4_main_4_structure.m in Sources */,
+				286518E126B2E31D00293523 /* _13_4_dictionary_main.m in Sources */,
 				286C15712692C57F00903309 /* ClassA.m in Sources */,
 				2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */,
 				288538362693D25F00C92956 /* _7_1_main_4_crash.m in Sources */,
@@ -625,8 +632,9 @@
 				28A24F9526A5994100C64309 /* _13_2_string_main_1.m in Sources */,
 				28A0381426A5AA6600F5E312 /* _13_2_string_main_mutable.m in Sources */,
 				28A80FA526A595AE00E2A05B /* _13_1_number_main_2.m in Sources */,
-				289B4DCA26AA3E4F008A4B29 /* _13_5_dictionary_main_4_loop.m in Sources */,
+				289B4DCA26AA3E4F008A4B29 /* _13_4_dictionary_main_4_loop.m in Sources */,
 				280C00CB26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m in Sources */,
+				2840430826B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m in Sources */,
 				289B4DC326AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m in Sources */,
 				286C15802692CE5D00903309 /* _2_4_main_4_Square.m in Sources */,
 				289B4DC126AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m in Sources */,

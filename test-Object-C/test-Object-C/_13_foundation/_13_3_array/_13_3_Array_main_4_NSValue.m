@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+/*
 struct MySize{
     int width;
     int height;
@@ -14,6 +15,7 @@ struct MySize{
 // typedef提供声明变量更简单的方式。
 typedef struct MySize MySize;
 
+ // https://developer.apple.com/documentation/foundation/nsvalue?language=objc
 // START ：subclass NSValue
 @interface NSValue(MySize)
 +(instancetype)valuewithMySize:(MySize)value;
@@ -43,7 +45,6 @@ int main(int argc, const char *argv[]){
         size2.height = 45;
         
         {
-            //        https://developer.apple.com/documentation/foundation/nsvalue?language=objc
             // wrapping
             NSValue *sizeValue1 = [NSValue valueWithBytes:&size1 objCType:@encode(MySize)];
             NSValue *sizeValue2 = [NSValue valueWithBytes:&size2 objCType:@encode(MySize)];
@@ -89,3 +90,4 @@ int main(int argc, const char *argv[]){
     }
     return 0;
 }
+*/
