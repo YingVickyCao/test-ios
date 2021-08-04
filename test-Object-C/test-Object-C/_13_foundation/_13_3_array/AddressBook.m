@@ -69,7 +69,7 @@
 }
 
 // indexOfObjectPassingTest：以区块作为参数。
-// 针对数组每个元素对区块执行操作，传递数组的元素、索引号和一个指向BOOL变量的指针给区块。使用区块中的代码测试元素是否满足条件，则返回YES，不满足则返回NO。
+// 区块应用在集合的每个元素。传递数组的元素、索引号和一个指向BOOL变量的指针给区块。使用区块中的代码测试元素是否满足条件，则返回YES，不满足则返回NO。
 // 即使方法返回YES，仍然会继续执行，知道所有的元素被处理过。可以设置BOOL 指针引用的值为YES终止处理。
 - (AddressCard_2 *)lookup2:(NSString *)theName{
     NSUInteger result = [book indexOfObjectPassingTest:^BOOL(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {

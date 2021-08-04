@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 /*
+// 通过创建Printing类别，将打印方法添加到NSSet
 @interface NSSet (Printing)
 -(void)print;
 @end

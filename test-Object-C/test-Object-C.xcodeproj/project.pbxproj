@@ -32,6 +32,7 @@
 		2840430B26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430A26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m */; };
 		2840430D26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430C26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m */; };
 		2840430F26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430E26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m */; };
+		2840431126BB49C9003BE8BF /* _13_5_set_main_4_NSMutableIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840431026BB49C9003BE8BF /* _13_5_set_main_4_NSMutableIndexSet.m */; };
 		285591E826949F29002E2D12 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 285591E726949F29002E2D12 /* Foo.m */; };
 		286518DF26B2D35600293523 /* _13_3_Array_main_4_NSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */; };
 		286518E126B2E31D00293523 /* _13_4_dictionary_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518E026B2E31D00293523 /* _13_4_dictionary_main.m */; };
@@ -126,6 +127,7 @@
 		2840430A26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSSet.m; sourceTree = "<group>"; };
 		2840430C26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSCountedSet.m; sourceTree = "<group>"; };
 		2840430E26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSIndexSet.m; sourceTree = "<group>"; };
+		2840431026BB49C9003BE8BF /* _13_5_set_main_4_NSMutableIndexSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSMutableIndexSet.m; sourceTree = "<group>"; };
 		285591E426949E37002E2D12 /* Foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
 		285591E726949F29002E2D12 /* Foo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 		286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_Array_main_4_NSValue.m; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				2840430A26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m */,
 				2840430C26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m */,
 				2840430E26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m */,
+				2840431026BB49C9003BE8BF /* _13_5_set_main_4_NSMutableIndexSet.m */,
 			);
 			path = _13_5_set;
 			sourceTree = "<group>";
@@ -646,6 +649,7 @@
 				286518DF26B2D35600293523 /* _13_3_Array_main_4_NSValue.m in Sources */,
 				28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */,
 				2885382E2693392200C92956 /* _2_4_main.m in Sources */,
+				2840431126BB49C9003BE8BF /* _13_5_set_main_4_NSMutableIndexSet.m in Sources */,
 				28810D0B26A3FA6500C49A67 /* _16_6_main_4_unit.m in Sources */,
 				28810D0D26A4059800C49A67 /* _14_8_main_4_sizeof.m in Sources */,
 				2840430D26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m in Sources */,

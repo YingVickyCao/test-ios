@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+/*
 int main(int argc, const char* argv[]){
     @autoreleasepool {
         
@@ -50,21 +50,18 @@ int main(int argc, const char* argv[]){
             
         }
         
-        
-        //        NSIndexSet *indexSet1 = [[NSIndexSet alloc] initWithIndex: 1];
-        //        NSIndexSet *indexSet2 = [[NSIndexSet alloc] initWithIndexSet: indexSet1];
-        //        NSIndexSet *indexSet3 = [[NSIndexSet alloc] initWithIndexesInRange: NSMakeRange(2, 3)];
-        //        NSLog(@"indexSet1:%@", indexSet1);
-        //        NSLog(@"indexSet2:%@", indexSet2);
-        //        NSLog(@"indexSet3:%@", indexSet3);
-        //
-        //        /* 快速初始化数组 */
-        //        NSArray *arr1 = @[@"One", @"Two thing", @"three", @"four test", @"Five", @"six"];
-        //
-        //        /* 提取连续下标子数组 */
-        //        NSArray *arr2 = [arr1 objectsAtIndexes: indexSet3];
-        //        NSLog(@"arr1:%@", arr1);
-        //        NSLog(@"arr2:%@", arr2);
+        {
+            // 快速初始化数组
+            NSArray *arr1 = @[@"One", @"Two thing", @"three", @"four test", @"Five", @"six"];
+            
+            NSIndexSet *indexSet = [[NSIndexSet alloc]initWithIndexesInRange:NSMakeRange(2, 4)];
+            // 提取连续下标子数组
+            NSArray *arr2 = [arr1 objectsAtIndexes: indexSet];
+            NSLog(@"arr1:%@", arr1);
+            // three,"four test", Five,six
+            NSLog(@"arr2:%@", arr2);
+        }
     }
     return 0;
 }
+*/
