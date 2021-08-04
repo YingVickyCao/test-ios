@@ -26,7 +26,10 @@
 // 遍历数组
 -(void) list2;
 -(AddressCard_2 *) lookup:(NSString *)theName;
+-(AddressCard_2 *) lookup2:(NSString *)theName;
 -(NSArray<AddressCard_2 *> *) lookupMatches:(NSString *)theName;
+-(NSArray<AddressCard_2 *> *) lookupMatches2:(NSString *)theName;
+-(NSArray<AddressCard_2 *> *) lookupMatches3:(NSString *)theName;
 -(void) sort;
 
 @end

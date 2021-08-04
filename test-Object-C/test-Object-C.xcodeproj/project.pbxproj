@@ -29,6 +29,9 @@
 		2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */; };
 		2833B7C3268E81AE000A4CF1 /* _6_condition_if.m in Sources */ = {isa = PBXBuildFile; fileRef = 2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */; };
 		2840430826B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430726B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m */; };
+		2840430B26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430A26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m */; };
+		2840430D26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430C26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m */; };
+		2840430F26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430E26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m */; };
 		285591E826949F29002E2D12 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 285591E726949F29002E2D12 /* Foo.m */; };
 		286518DF26B2D35600293523 /* _13_3_Array_main_4_NSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */; };
 		286518E126B2E31D00293523 /* _13_4_dictionary_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518E026B2E31D00293523 /* _13_4_dictionary_main.m */; };
@@ -120,6 +123,9 @@
 		2833B7BF268D92B4000A4CF1 /* _5_loop_continue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_loop_continue.m; sourceTree = "<group>"; };
 		2833B7C2268E81AE000A4CF1 /* _6_condition_if.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_condition_if.m; sourceTree = "<group>"; };
 		2840430726B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_4_dictionary_main_4_mutable.m; sourceTree = "<group>"; };
+		2840430A26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSSet.m; sourceTree = "<group>"; };
+		2840430C26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSCountedSet.m; sourceTree = "<group>"; };
+		2840430E26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSIndexSet.m; sourceTree = "<group>"; };
 		285591E426949E37002E2D12 /* Foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
 		285591E726949F29002E2D12 /* Foo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 		286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_Array_main_4_NSValue.m; sourceTree = "<group>"; };
@@ -274,6 +280,16 @@
 			path = _6_condition;
 			sourceTree = "<group>";
 		};
+		2840430926B82B85003BE8BF /* _13_5_set */ = {
+			isa = PBXGroup;
+			children = (
+				2840430A26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m */,
+				2840430C26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m */,
+				2840430E26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m */,
+			);
+			path = _13_5_set;
+			sourceTree = "<group>";
+		};
 		286C156E2692B76600903309 /* _2_3_Inheritance */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +350,7 @@
 		28810D0E26A4FE2600C49A67 /* _13_foundation */ = {
 			isa = PBXGroup;
 			children = (
+				2840430926B82B85003BE8BF /* _13_5_set */,
 				289B4DC826AA3DF6008A4B29 /* _13_2_string */,
 				289B4DC726AA3DEB008A4B29 /* _13_1_number */,
 				289B4DC626AA3DC0008A4B29 /* _13_4_dictionary */,
@@ -595,6 +612,7 @@
 				28810D1026A4FE4A00C49A67 /* _13_1_number_main_1.m in Sources */,
 				280C00C726A06B20008FB68C /* _16_4_main_4_structure.m in Sources */,
 				286518E126B2E31D00293523 /* _13_4_dictionary_main.m in Sources */,
+				2840430B26B8B4B9003BE8BF /* _13_5_set_main_4_NSSet.m in Sources */,
 				286C15712692C57F00903309 /* ClassA.m in Sources */,
 				2833B7C0268D92B4000A4CF1 /* _5_loop_continue.m in Sources */,
 				288538362693D25F00C92956 /* _7_1_main_4_crash.m in Sources */,
@@ -624,11 +642,13 @@
 				2891A0B626A8E2F200ED042A /* AddressCard.m in Sources */,
 				282997362694A096008233D5 /* _3_3_main_4_global.m in Sources */,
 				28E0A27A26A64769009C6425 /* _13_3_array_main.m in Sources */,
+				2840430F26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m in Sources */,
 				286518DF26B2D35600293523 /* _13_3_Array_main_4_NSValue.m in Sources */,
 				28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */,
 				2885382E2693392200C92956 /* _2_4_main.m in Sources */,
 				28810D0B26A3FA6500C49A67 /* _16_6_main_4_unit.m in Sources */,
 				28810D0D26A4059800C49A67 /* _14_8_main_4_sizeof.m in Sources */,
+				2840430D26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m in Sources */,
 				28A24F9526A5994100C64309 /* _13_2_string_main_1.m in Sources */,
 				28A0381426A5AA6600F5E312 /* _13_2_string_main_mutable.m in Sources */,
 				28A80FA526A595AE00E2A05B /* _13_1_number_main_2.m in Sources */,
