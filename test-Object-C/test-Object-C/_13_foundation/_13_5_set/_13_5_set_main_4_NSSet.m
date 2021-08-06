@@ -17,7 +17,7 @@
 
 - (void)print{
     for (NSNumber *item in self) {
-        NSLog(@"%li",(long)[item integerValue]);
+        NSLog(@"%li",(long)TOF[item integerValue]);
     }
     NSLog(@"\n");
 }

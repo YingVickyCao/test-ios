@@ -8,7 +8,7 @@
 
 #import "AddressBook.h"
 
-/*
+
 int main(int argc, const char *argv[]){
     @autoreleasepool {
         AddressCard_2 *card1 = [[AddressCard_2 alloc]init];
@@ -22,6 +22,7 @@ int main(int argc, const char *argv[]){
         
         AddressCard_2 *card4 = [[AddressCard_2 alloc]init];
         [card4 setName:@"Name_3" andEmail:@"name3_2@outlook.com"];
+//        [card4 setName:@"Name_4" andEmail:@"name3_2@outlook.com"];
         
         AddressBook *book = [[AddressBook alloc]initWithName:@"Lina;s Address Book"];
         NSLog(@"Addres count after creation:%lu",[book count]);
@@ -88,7 +89,6 @@ int main(int argc, const char *argv[]){
         NSLog(@"\n");
         NSLog(@"lookupMatches2---->");
         {
-            // TODO: 数据应该是两条，结果是1条？
             NSArray<AddressCard_2*> *matches = [book lookupMatches2:@"Name_3"];
             if (matches != nil) {
                 for (AddressCard_2 *item in matches) {
@@ -131,4 +131,3 @@ int main(int argc, const char *argv[]){
     }
     return 0;
 }
-*/

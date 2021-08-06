@@ -105,26 +105,25 @@
 
 // 从数组中查找到匹配的所有对象？可以用indexOfObjectPassingTest。需要将它们存储在区块的数组中，并且不要设置stop指针为YES。
 - (NSArray<AddressCard_2 *> *)lookupMatches2:(NSString *)theName{
+//    theName = @"11";
     NSMutableArray<AddressCard_2 *> *matches = [NSMutableArray array];
     
     NSUInteger result = [book indexOfObjectPassingTest:^BOOL(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         // NSLog(@"lookupMatches2 loop %@", [obj name]);
+        NSString *str = [obj name];
         if ([[obj name]caseInsensitiveCompare:theName] == NSOrderedSame) {
-            NSLog(@"lookupMatches2 loop %@", [obj name]);
+//            NSLog(@"lookupMatches2 loop %@", [obj name]);
             [matches addObject:obj];
-            return YES;
+//            *stop = NO;  //  加不加都行。
+            return NO;
         }
         else{
             return NO;
         }
+        return NO;
     }];
     
-    if (result != NSNotFound) {
-        return matches;
-    }
-    else{
-        return nil;
-    }
+    return matches;
 }
 
 
