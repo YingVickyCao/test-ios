@@ -8,7 +8,7 @@
 
 #import "AddressBook.h"
 
-
+/*
 int main(int argc, const char *argv[]){
     @autoreleasepool {
         AddressCard_2 *card1 = [[AddressCard_2 alloc]init];
@@ -131,3 +131,4 @@ int main(int argc, const char *argv[]){
     }
     return 0;
 }
+*/

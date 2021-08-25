@@ -108,9 +108,8 @@
 //    theName = @"11";
     NSMutableArray<AddressCard_2 *> *matches = [NSMutableArray array];
     
-    NSUInteger result = [book indexOfObjectPassingTest:^BOOL(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [book indexOfObjectPassingTest:^BOOL(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         // NSLog(@"lookupMatches2 loop %@", [obj name]);
-        NSString *str = [obj name];
         if ([[obj name]caseInsensitiveCompare:theName] == NSOrderedSame) {
 //            NSLog(@"lookupMatches2 loop %@", [obj name]);
             [matches addObject:obj];

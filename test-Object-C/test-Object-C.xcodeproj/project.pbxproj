@@ -13,6 +13,10 @@
 		280C00C926A0F19C008FB68C /* _16_5_main_4_pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C00C826A0F19C008FB68C /* _16_5_main_4_pointer.m */; };
 		280C00CB26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C00CA26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m */; };
 		280C00CD26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C00CC26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m */; };
+		280C815A26D51CCC0083F88C /* _17_main_4_NSPathUtilities_4_copy_file.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C815926D51CCC0083F88C /* _17_main_4_NSPathUtilities_4_copy_file.m */; };
+		280C815C26D526210083F88C /* _17_main_4_NSFileHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C815B26D526210083F88C /* _17_main_4_NSFileHandler.m */; };
+		280C815E26D5B3BD0083F88C /* _17_main_4_NSFileHandler_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C815D26D5B3BD0083F88C /* _17_main_4_NSFileHandler_2.m */; };
+		280C816026D5B8810083F88C /* _17_main_4_NSFileHandler_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 280C815F26D5B8810083F88C /* _17_main_4_NSFileHandler_3.m */; };
 		2811D68B2689B0C100EA65A1 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68A2689B0C100EA65A1 /* Fraction.m */; };
 		2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68C2689B54300EA65A1 /* Fraction_main.m */; };
 		2811D690268A989700EA65A1 /* _3_1_main_4_basic_data_type.m in Sources */ = {isa = PBXBuildFile; fileRef = 2811D68F268A989700EA65A1 /* _3_1_main_4_basic_data_type.m */; };
@@ -33,7 +37,7 @@
 		2840430D26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430C26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m */; };
 		2840430F26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840430E26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m */; };
 		2840431126BB49C9003BE8BF /* _13_5_set_main_4_NSMutableIndexSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840431026BB49C9003BE8BF /* _13_5_set_main_4_NSMutableIndexSet.m */; };
-		2840431426BB6856003BE8BF /* _17_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840431326BB6856003BE8BF /* _17_main.m */; };
+		2840431426BB6856003BE8BF /* _17_main_4_NSFileManager_op_file.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840431326BB6856003BE8BF /* _17_main_4_NSFileManager_op_file.m */; };
 		285591E826949F29002E2D12 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 285591E726949F29002E2D12 /* Foo.m */; };
 		286518DF26B2D35600293523 /* _13_3_Array_main_4_NSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */; };
 		286518E126B2E31D00293523 /* _13_4_dictionary_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286518E026B2E31D00293523 /* _13_4_dictionary_main.m */; };
@@ -71,6 +75,10 @@
 		28A0381526A5AA6600F5E312 /* _13_2_string_main_convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A0381126A5AA6600F5E312 /* _13_2_string_main_convert.m */; };
 		28A188DC269C70040082E715 /* _11_main_4_category.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A188DB269C70040082E715 /* _11_main_4_category.m */; };
 		28A188E1269C78030082E715 /* _11_main_4_class_extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A188E0269C78030082E715 /* _11_main_4_class_extensions.m */; };
+		28A2036626CC785C00B78BCD /* _17_main_4_NSFileManager_4_NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2036526CC785C00B78BCD /* _17_main_4_NSFileManager_4_NSData.m */; };
+		28A2036826CC820E00B78BCD /* _17_main_4_NSFileManager_4_use_dir.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2036726CC820E00B78BCD /* _17_main_4_NSFileManager_4_use_dir.m */; };
+		28A2036A26CD2C2100B78BCD /* _17_main_4_NSFileManager_4_list_contents_in_dir.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2036926CD2C2100B78BCD /* _17_main_4_NSFileManager_4_list_contents_in_dir.m */; };
+		28A2036C26CD3AE000B78BCD /* _17_main_4_NSPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2036B26CD3AE000B78BCD /* _17_main_4_NSPathUtilities.m */; };
 		28A24F9526A5994100C64309 /* _13_2_string_main_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A24F9426A5994100C64309 /* _13_2_string_main_1.m */; };
 		28A29499269C808200423E63 /* _10_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A29498269C808200423E63 /* _10_main.m */; };
 		28A80FA526A595AE00E2A05B /* _13_1_number_main_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A80FA426A595AE00E2A05B /* _13_1_number_main_2.m */; };
@@ -107,6 +115,12 @@
 		280C00C826A0F19C008FB68C /* _16_5_main_4_pointer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_5_main_4_pointer.m; sourceTree = "<group>"; };
 		280C00CA26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_5_main_4_pointer_4_struct.m; sourceTree = "<group>"; };
 		280C00CC26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _16_5_main_4_pointer_4_array.m; sourceTree = "<group>"; };
+		280C815926D51CCC0083F88C /* _17_main_4_NSPathUtilities_4_copy_file.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSPathUtilities_4_copy_file.m; sourceTree = "<group>"; };
+		280C815B26D526210083F88C /* _17_main_4_NSFileHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSFileHandler.m; sourceTree = "<group>"; };
+		280C815D26D5B3BD0083F88C /* _17_main_4_NSFileHandler_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSFileHandler_2.m; sourceTree = "<group>"; };
+		280C815F26D5B8810083F88C /* _17_main_4_NSFileHandler_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSFileHandler_3.m; sourceTree = "<group>"; };
+		280C816126D671E30083F88C /* testfile_4_middle.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testfile_4_middle.txt; sourceTree = "<group>"; };
+		280C816226D681DD0083F88C /* testfile_4_long.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testfile_4_long.txt; sourceTree = "<group>"; };
 		2811D6892689AFFC00EA65A1 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		2811D68A2689B0C100EA65A1 /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		2811D68C2689B54300EA65A1 /* Fraction_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction_main.m; sourceTree = "<group>"; };
@@ -129,8 +143,7 @@
 		2840430C26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSCountedSet.m; sourceTree = "<group>"; };
 		2840430E26B8BC03003BE8BF /* _13_5_set_main_4_NSIndexSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSIndexSet.m; sourceTree = "<group>"; };
 		2840431026BB49C9003BE8BF /* _13_5_set_main_4_NSMutableIndexSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_5_set_main_4_NSMutableIndexSet.m; sourceTree = "<group>"; };
-		2840431326BB6856003BE8BF /* _17_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main.m; sourceTree = "<group>"; };
-		2840431526BB68C2003BE8BF /* testfile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testfile.txt; sourceTree = "<group>"; };
+		2840431326BB6856003BE8BF /* _17_main_4_NSFileManager_op_file.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSFileManager_op_file.m; sourceTree = "<group>"; };
 		285591E426949E37002E2D12 /* Foo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
 		285591E726949F29002E2D12 /* Foo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 		286518DE26B2D35600293523 /* _13_3_Array_main_4_NSValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_3_Array_main_4_NSValue.m; sourceTree = "<group>"; };
@@ -182,6 +195,11 @@
 		28A188E3269C7F380082E715 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		28A188E4269C7F840082E715 /* RunProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunProtocol.h; sourceTree = "<group>"; };
 		28A188E5269C7FE10082E715 /* ToolProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolProtocol.h; sourceTree = "<group>"; };
+		28A2036326CBE75A00B78BCD /* testfile_short.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = testfile_short.txt; sourceTree = "<group>"; };
+		28A2036526CC785C00B78BCD /* _17_main_4_NSFileManager_4_NSData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSFileManager_4_NSData.m; sourceTree = "<group>"; };
+		28A2036726CC820E00B78BCD /* _17_main_4_NSFileManager_4_use_dir.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSFileManager_4_use_dir.m; sourceTree = "<group>"; };
+		28A2036926CD2C2100B78BCD /* _17_main_4_NSFileManager_4_list_contents_in_dir.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSFileManager_4_list_contents_in_dir.m; sourceTree = "<group>"; };
+		28A2036B26CD3AE000B78BCD /* _17_main_4_NSPathUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _17_main_4_NSPathUtilities.m; sourceTree = "<group>"; };
 		28A24F9426A5994100C64309 /* _13_2_string_main_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_2_string_main_1.m; sourceTree = "<group>"; };
 		28A29498269C808200423E63 /* _10_main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _10_main.m; sourceTree = "<group>"; };
 		28A80FA426A595AE00E2A05B /* _13_1_number_main_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _13_1_number_main_2.m; sourceTree = "<group>"; };
@@ -299,8 +317,18 @@
 		2840431226BB67F7003BE8BF /* _17_use_file */ = {
 			isa = PBXGroup;
 			children = (
-				2840431326BB6856003BE8BF /* _17_main.m */,
-				2840431526BB68C2003BE8BF /* testfile.txt */,
+				2840431326BB6856003BE8BF /* _17_main_4_NSFileManager_op_file.m */,
+				28A2036326CBE75A00B78BCD /* testfile_short.txt */,
+				28A2036526CC785C00B78BCD /* _17_main_4_NSFileManager_4_NSData.m */,
+				28A2036726CC820E00B78BCD /* _17_main_4_NSFileManager_4_use_dir.m */,
+				28A2036B26CD3AE000B78BCD /* _17_main_4_NSPathUtilities.m */,
+				28A2036926CD2C2100B78BCD /* _17_main_4_NSFileManager_4_list_contents_in_dir.m */,
+				280C815926D51CCC0083F88C /* _17_main_4_NSPathUtilities_4_copy_file.m */,
+				280C815B26D526210083F88C /* _17_main_4_NSFileHandler.m */,
+				280C815D26D5B3BD0083F88C /* _17_main_4_NSFileHandler_2.m */,
+				280C815F26D5B8810083F88C /* _17_main_4_NSFileHandler_3.m */,
+				280C816126D671E30083F88C /* testfile_4_middle.txt */,
+				280C816226D681DD0083F88C /* testfile_4_long.txt */,
 			);
 			path = _17_use_file;
 			sourceTree = "<group>";
@@ -616,6 +644,7 @@
 				280C00CD26A106CF008FB68C /* _16_5_main_4_pointer_4_array.m in Sources */,
 				280C00C2269FA663008FB68C /* _16_2_main_4_function.m in Sources */,
 				28A29499269C808200423E63 /* _10_main.m in Sources */,
+				28A2036626CC785C00B78BCD /* _17_main_4_NSFileManager_4_NSData.m in Sources */,
 				288538312693CDB400C92956 /* _2_5_main_4_ dynamic_type.m in Sources */,
 				28CDE035268ECA7C003ADE3D /* _6_conditional_operator.m in Sources */,
 				2813A0EE269F235D0062F9AF /* _16_1_main_4_array.m in Sources */,
@@ -623,6 +652,7 @@
 				28A0381226A5AA6600F5E312 /* _13_2_string_main_2.m in Sources */,
 				286C157B2692CC5400903309 /* _2_4_main_4_Rectangle.m in Sources */,
 				2833B7B5268D3E7C000A4CF1 /* _4_main_for_expression.m in Sources */,
+				280C815E26D5B3BD0083F88C /* _17_main_4_NSFileHandler_2.m in Sources */,
 				28A188E1269C78030082E715 /* _11_main_4_class_extensions.m in Sources */,
 				2891A0B826A8E4A300ED042A /* _13_3_array_main_4_AddressCard.m in Sources */,
 				28810D1026A4FE4A00C49A67 /* _13_1_number_main_1.m in Sources */,
@@ -652,8 +682,9 @@
 				28A0381526A5AA6600F5E312 /* _13_2_string_main_convert.m in Sources */,
 				286C157E2692CD8A00903309 /* Square.m in Sources */,
 				2833B7C3268E81AE000A4CF1 /* _6_condition_if.m in Sources */,
-				2840431426BB6856003BE8BF /* _17_main.m in Sources */,
+				2840431426BB6856003BE8BF /* _17_main_4_NSFileManager_op_file.m in Sources */,
 				2891A0BB26A8E73600ED042A /* AddressCard_2.m in Sources */,
+				280C816026D5B8810083F88C /* _17_main_4_NSFileHandler_3.m in Sources */,
 				2833B7BA268D8C1E000A4CF1 /* _5_loop_while.m in Sources */,
 				2811D68D2689B54300EA65A1 /* Fraction_main.m in Sources */,
 				2891A0B626A8E2F200ED042A /* AddressCard.m in Sources */,
@@ -667,14 +698,17 @@
 				28810D0B26A3FA6500C49A67 /* _16_6_main_4_unit.m in Sources */,
 				28810D0D26A4059800C49A67 /* _14_8_main_4_sizeof.m in Sources */,
 				2840430D26B8BAC3003BE8BF /* _13_5_set_main_4_NSCountedSet.m in Sources */,
+				28A2036C26CD3AE000B78BCD /* _17_main_4_NSPathUtilities.m in Sources */,
 				28A24F9526A5994100C64309 /* _13_2_string_main_1.m in Sources */,
 				28A0381426A5AA6600F5E312 /* _13_2_string_main_mutable.m in Sources */,
 				28A80FA526A595AE00E2A05B /* _13_1_number_main_2.m in Sources */,
 				289B4DCA26AA3E4F008A4B29 /* _13_4_dictionary_main_4_loop.m in Sources */,
+				280C815C26D526210083F88C /* _17_main_4_NSFileHandler.m in Sources */,
 				280C00CB26A10625008FB68C /* _16_5_main_4_pointer_4_struct.m in Sources */,
 				2840430826B8270D003BE8BF /* _13_4_dictionary_main_4_mutable.m in Sources */,
 				289B4DC326AA37BC008A4B29 /* _13_3_array_main_4_AddressBook.m in Sources */,
 				286C15802692CE5D00903309 /* _2_4_main_4_Square.m in Sources */,
+				28A2036A26CD2C2100B78BCD /* _17_main_4_NSFileManager_4_list_contents_in_dir.m in Sources */,
 				289B4DC126AA3754008A4B29 /* _13_3_array_main_4_AddressCard2.m in Sources */,
 				28CDE03C268ED26D003ADE3D /* Fraction_2.m in Sources */,
 				28BDC0F2269C064B00B0E2C2 /* MathOps.m in Sources */,
@@ -685,9 +719,11 @@
 				2813A0E8269DBB470062F9AF /* Square_2.m in Sources */,
 				286C15762692C6E500903309 /* 2_4_main.m in Sources */,
 				289B4DC526AA3BE3008A4B29 /* _13_3_array_main_4_loop.m in Sources */,
+				280C815A26D51CCC0083F88C /* _17_main_4_NSPathUtilities_4_copy_file.m in Sources */,
 				28D0F9FB2695BC3A00C5F5B1 /* _4_main_for_byte_operator.m in Sources */,
 				2833B7B7268D6921000A4CF1 /* _5_loop_for.m in Sources */,
 				286C15832692DC7300903309 /* XYPoint.m in Sources */,
+				28A2036826CC820E00B78BCD /* _17_main_4_NSFileManager_4_use_dir.m in Sources */,
 				280C00C526A06221008FB68C /* _16_3_main_4_block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
