@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+/*
 // Example：文件的一些基本操作
 // 假设存在一个“testfile.txt” 文件在当前工作目录中。打开testfile.txt，读取它的内容，并将其追加到"out.txt"的文件末尾。=>一次性写入
 int main(int argc, const char* argv[]){
@@ -32,17 +32,23 @@ int main(int argc, const char* argv[]){
             return 2;
         }
         
- 
         // 定位到out file 文件的末尾，从此处开始追加
+        // 可以使用seekToEndOfFile的返回值信息获取程序中文件的大小。
         // [fileHandler_out seekToEndOfFile];
         
         // 定位到 out file 的10 字节，从此处开始追加
-        [fileHandler_out seekToFileOffset:10];
+//        [fileHandler_out seekToFileOffset:10];
+        
+        // 跳过out file 文件中当前位置之后的128字节
+//        [fileHandler_out seekToFileOffset:[fileHandler_out offsetInFile]+128];
+        
+        // 在文件中向回移动5个整数所占的字节数
+//        [fileHandler_out seekToFileOffset:[fileHandler_out offsetInFile] - 5 * sizeof(int)];
         
         // 从 in file 中读取数据，将它写到out file
         // readDataToEndOfFile: 每次从文件中读取最多UNIT_MAX字节的数据，它定义在 limits.h中，在很多系统中该值等于FFFFFFFF（16）。
         buffer = [fileHandler_in readDataToEndOfFile];
-
+        
         [fileHandler_out writeData:buffer];
         
         // 关闭这两个文件
@@ -54,4 +60,4 @@ int main(int argc, const char* argv[]){
     }
     return 0;
 }
-
+*/
