@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='1_常量'/>
         <page name='2_变量'/>
         <page name='3_注释'/>
         <page name='4_语句'/>
         <page name='5_循环'/>
-        <page name='6_数据类型转换'/>
         <page name='7_元祖'/>
-        <page name='8_char'/>
+        <page name='5_4_字符串'/>
         <page name='9_String'/>
         <page name='10_运算符'/>
         <page name='11_条件'/>
@@ -23,5 +22,12 @@
         <page name='19_结构体'/>
         <page name='20_协议'/>
         <page name='21_范性'/>
+        <page name='Sample'/>
+        <page name='4_标识符'/>
+        <page name='5_数据类型_数据类型转换'/>
+        <page name='5_2_浮点数'/>
+        <page name='5_1_整数'/>
+        <page name='5_3_布尔'/>
+        <page name='5_5_字符'/>
     </pages>
 </playground>

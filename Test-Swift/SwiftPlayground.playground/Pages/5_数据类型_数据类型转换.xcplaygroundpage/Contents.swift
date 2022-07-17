@@ -1,28 +1,12 @@
 import Foundation
 
-// 1 Int
-var n:Int = 6;
-
-print(n);
-
-print(Int.min)  // -9223372036854775808
-print(Int.max)  // 9223372036854775807
-
-print(Int8.min)  // -128
-print(Int8.max)  // 127
-
-print(UInt.min) // 0
-print(UInt.max) // 18446744073709551615
-
-// 2 Float:单精度
-var pi:Float = 3.14;
-print(pi);  //  3.14
-
-// 3 Double:双精度
-var pi_2:Float = 3.14;
-print(pi_2);    // 3.14
 
 // 4 TODO: 类型转换
+
+var pi_2:Double = 3.14;
+print(pi_2);    // 3.14
+
+
 // （1）Float -> Double : ok
 var f_1:Float = pi+pi_2;
 print(f_1);     // 6.28

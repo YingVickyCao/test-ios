@@ -45,9 +45,9 @@
 		288295502882C070001BA42E = {
 			isa = PBXGroup;
 			children = (
+				2882955A2882C070001BA42E /* Products */,
 				288295632882C0A3001BA42E /* SwiftPlayground.playground */,
 				2882955B2882C070001BA42E /* Test-Swift */,
-				2882955A2882C070001BA42E /* Products */,
 			);
 			sourceTree = "<group>";
 		};

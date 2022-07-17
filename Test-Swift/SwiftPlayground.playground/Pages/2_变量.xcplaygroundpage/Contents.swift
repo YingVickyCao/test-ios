@@ -25,15 +25,13 @@ green = 20;
 print(red); // 10.0
 print(green);   // 20.0
 
-// UTF-8
-var 中国="china";
-print(中国);
-中国 = "test 123";
-print(中国);
-中国 = "😂";
-print(中国);
-
 // 变量打印时叠加
 print("hi,"+中国)
-//print("hi,"+age) // error: binary operator '+' cannot be applied to operands of type 'String' and 'Double'
+//print("hi,"+age) // error: binary
+// operator '+' cannot be applied to operands of type 'String' and 'Double'
 print("hi,\(age)")
+
+
+// 变量，在初始化之前，都不能使用。
+var width:Int;
+//print(width) // ERROR: Variable 'width' used before being initialized
