@@ -23,9 +23,9 @@ print(test);    // 11
 func getAge()->Int{
     return 100
 }
+
 let age2 = getAge();
 print(age2) // 100
-
 
 // 4 常量，在初始化之前，都不能使用
 let height:Int;

@@ -8,9 +8,9 @@ print(pi_2);    // 3.14
 
 
 // （1）Float -> Double : ok
-var f_1:Float = pi+pi_2;
-print(f_1);     // 6.28
-print(pi+pi_2); // 6.28
+//var f_1:Float = pi_2+pi_2;
+//print(f_1);     // 6.28
+//print(pi+pi_2); // 6.28
 
 // （2）Double -> Float : error
 /**
@@ -50,24 +50,6 @@ print(doubleVar3) // Optional(25.0)
 
 //var intVar2 = Int(doubleVar3);
 //print(intVar2)
-
-// 5 二进制
-let binary = 0b0010;
-print(binary);      // 2
-
-// 6 八进制
-let octonary = 0o1276;
-print(octonary);    // 702
-
-// 7 十六进制
-let hex=0x002;
-print(hex);         // 2
-//hex = 0x10.98;      // error: hexadecimal floating point literal must end with an exponent
-//print(hex)
-
-// 8 布尔值
-let b_value:Bool = false;
-print(b_value)      // false
 
 // 9 类型别名 typealias
 typealias V = String;
