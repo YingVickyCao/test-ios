@@ -19,7 +19,7 @@ array.capacity;
 array.append(3);
 
 // 5 insert
-array.insert(4, at: 1);
+array.insert(4, at: 1); // [10, 2, 3] -> [10, 4, 2, 3]
 
 // 6 loop item
 for item in array {

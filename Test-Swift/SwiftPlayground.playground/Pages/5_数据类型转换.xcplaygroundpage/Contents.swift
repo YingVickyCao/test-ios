@@ -1,7 +1,12 @@
 import Foundation
 
+//  类型转换
 
-// 4 TODO: 类型转换
+// 1 整数转换
+let int_1 :Int16 = 100;
+let int_2:Int8 = 1;
+//let int_3 = int_1 + int_2;        // error: binary operator '+' cannot be applied to operands of type 'UInt16' and 'UInt8'
+let int_3 = int_1 + Int16(int_2)
 
 var pi_2:Double = 3.14;
 print(pi_2);    // 3.14
@@ -29,6 +34,15 @@ var doubleVar :Double = Double(max);
 print(max)  // 10
 print(doubleVar)    // 10.0
 
+let int = 3;
+let double = 0.14159;
+//let pi=int + double; //  error: binary operator '+' cannot be applied to operands of type 'Int' and 'Double'
+let pi = Double(int) + double // 3.14159
+let int_pi = Int(pi)    // 3
+
+// 两个字面值可以直接相加，因为字面量本身没有明确的类型
+// 类型是给常量、变量使用的，
+let result = 3 + 0.1459 // 3.1459
 
 // (4) String -> Int, Float, Double
 var str:String = "123";
