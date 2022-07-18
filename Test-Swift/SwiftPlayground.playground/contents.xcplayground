@@ -12,12 +12,11 @@
         <page name='5_4_字符串'/>
         <page name='5_5_字符'/>
         <page name='5_6_array'/>
-        <page name='5_循环'/>
+        <page name='7_循环'/>
         <page name='5_数据类型转换'/>
         <page name='5_8_元祖'/>
-        <page name='9_String'/>
         <page name='10_运算符'/>
-        <page name='11_条件'/>
+        <page name='6_条件'/>
         <page name='5_7_字典'/>
         <page name='14_控制传递'/>
         <page name='15_函数'/>
@@ -25,7 +24,7 @@
         <page name='17_枚举'/>
         <page name='18_1_inheritance'/>
         <page name='18_class'/>
-        <page name='19_结构体'/>
+        <page name='5_9_结构体'/>
         <page name='20_协议'/>
         <page name='21_范性'/>
         <page name='Sample'/>
