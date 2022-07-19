@@ -16,7 +16,6 @@
         <page name='5_8_元祖'/>
         <page name='5_9_结构体'/>
         <page name='5_数据类型转换'/>
-        <page name='6_条件'/>
         <page name='7_循环'/>
         <page name='8_1_ 运算符_赋值运算符'/>
         <page name='8_2_运算符_算术运算符'/>
@@ -32,7 +31,7 @@
         <page name='18_class'/>
         <page name='20_协议'/>
         <page name='21_范性'/>
-        <page name='Sample'/>
+        <page name='0_Plaground_Example'/>
         <page name='6_1_条件_if'/>
         <page name='6_2_条件_switch'/>
     </pages>

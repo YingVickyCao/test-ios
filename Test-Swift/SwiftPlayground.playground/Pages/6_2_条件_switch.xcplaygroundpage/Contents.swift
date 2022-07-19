@@ -1,47 +1,53 @@
 import Foundation
 
-// 2 Switch
-var num = 5;
+// 1 特殊：Switch 每个case 默认带break，一旦满足，后面的case 就不再运行。
+var num = 2;
 switch num {
 case 1:
     print(1)
     
 case 2:
-    print(2)
+    print(2)  // invoke this step
     
-//  一旦满足，下面的case 就不再运行。
 case 5:
     print(5)
     
 default:
     print("This is a default sentence")
-}
+} // 2
 
-
+// 2 特殊：Switch 合并多个条件
 switch num {
 case 1:
     print(1)
     
-case 2:
-    print(2)
+//case 2: // error: 'case' label in a 'switch' must have at least one executable statement
+//case 3:
+//    print("2 or 3")
     
-case 4,5 :  // 合并多个条件
+case 2,3 :
+    print("2 or 3")
+    
+case 4,5 :
     print("4 or 5")
     
 default:
     print("This is a default sentence")
-}
+} // 2 or 3
 
+
+// 特殊：Swift 的case 因为自动加了break，不能实现贯穿效果。一个条件case满足了，还想继续执行下一条case，用fallthrough
+num = 2
 switch num {
 case 1:
     print(1)
     
 case 2:
     print(2)
+    fallthrough
     
 case 5 :
     print("5")
-    fallthrough // 一个条件case满足了，还想继续执行下i一条case
     
 case 6 :
     print("then 6")
@@ -49,7 +55,7 @@ case 6 :
     
 default:
     print("This is a default sentence")
-}
+} // 2，5
 
 // Switch support float
 var f = 1.5;

@@ -1,12 +1,13 @@
-import UIKit;
+//import UIKit;
 import Foundation
-import PlaygroundSupport;
+//import PlaygroundSupport;
 
 var a = 10;
 var b = 20;
 print(a+b);
 print(a);
 
+/*
 let view = UIView();
 view.frame = CGRect(x: 0, y: 0, width: 100, height: 100);
 view.backgroundColor = UIColor.red
@@ -22,3 +23,5 @@ let controller = UITableViewController();
 //controller.view.backgroundColor =UIColor.blue
 controller.view.backgroundColor = UIColor.lightGray
 PlaygroundPage.current.liveView = controller;
+
+*/
