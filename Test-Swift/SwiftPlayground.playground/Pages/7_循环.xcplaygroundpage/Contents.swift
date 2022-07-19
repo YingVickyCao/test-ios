@@ -126,14 +126,6 @@ for i in names[..<2]{
 }
 
 
-let range = ...5; // PartialRangeThrough, [负无穷小, 5]
-range.contains(5);      // true 
-range.contains(6);      // false
-range.contains(7);      // false
-range.contains(-3);     // true
-range.contains(-188988);//true
-
-
 /**
  Print Sort may be different every time
  (key: "b", value: 2)
