@@ -33,6 +33,7 @@
         <page name='20_协议'/>
         <page name='21_范性'/>
         <page name='Sample'/>
-        <page name='6_条件_switch'/>
+        <page name='6_1_条件_if'/>
+        <page name='6_2_条件_switch'/>
     </pages>
 </playground>

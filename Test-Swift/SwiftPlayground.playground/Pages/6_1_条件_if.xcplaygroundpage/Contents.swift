@@ -28,4 +28,3 @@ else{
 //if 3{ // error : Type 'Int' cannot be used as a boolean; test for '!= 0' instead
 //
 //}
-
