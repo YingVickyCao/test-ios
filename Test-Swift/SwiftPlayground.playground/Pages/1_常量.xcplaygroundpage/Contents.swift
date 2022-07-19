@@ -1,3 +1,5 @@
+import Foundation
+
 // 1 只能赋值 1 次
 let n = 10;
 //n = 20; // ERROR:Cannot assign to value: 'n' is a 'let' constant

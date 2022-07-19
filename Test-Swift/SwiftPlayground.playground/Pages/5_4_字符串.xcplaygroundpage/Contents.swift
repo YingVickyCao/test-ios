@@ -1,3 +1,5 @@
+import Foundation
+
 var char = "A"
 
 let string = "abc"

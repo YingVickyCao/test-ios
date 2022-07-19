@@ -1,3 +1,5 @@
+import Foundation
+
 // 2 算术运算符
 var a :Int = 2 + 10 ;
 a = 2 - 10;

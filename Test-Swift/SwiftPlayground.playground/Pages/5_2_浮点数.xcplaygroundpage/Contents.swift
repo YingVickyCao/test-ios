@@ -1,3 +1,5 @@
+import Foundation
+
 // 3 Float:单精度
 var pi:Float = 3.14;
 print(pi);  //  3.14

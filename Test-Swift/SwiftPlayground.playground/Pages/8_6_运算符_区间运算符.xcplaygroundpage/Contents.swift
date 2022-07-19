@@ -1,3 +1,5 @@
+import Foundation
+
 // 1 ClosedRange
 // [1,5]
 let range_1 = 1...5;   // 自动识别为 ClosedRange<Int>, 是范型
@@ -30,6 +32,10 @@ string_range_1.contains("fg") // false
 let string_range_2 = "a"..."f"
 string_range_2.contains("d"); // true
 string_range_2.contains("g"); // false
+
+// [\0,~] 包含了经常使用的字符
+let chart_range:ClosedRange<Character> = "\0"..."~"
+chart_range.contains("G")
 
 // 5 removeSubrange in Array
 //let measurements = [1,1.5,3.0,5.9]

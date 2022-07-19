@@ -1,3 +1,5 @@
+import Foundation
+
 // 1 Int
 
 // Swift中Int是一个struct

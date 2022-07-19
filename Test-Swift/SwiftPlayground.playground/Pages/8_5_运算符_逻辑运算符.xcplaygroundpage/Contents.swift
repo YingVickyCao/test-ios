@@ -1,3 +1,5 @@
+import Foundation
+
 // 5 逻辑运算符
 // &&
 // ||
