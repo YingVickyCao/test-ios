@@ -2,7 +2,9 @@ import Foundation
 
 // 1 for
 
-// for in
+/*
+ 循环array
+ */
 
 /**
  1
@@ -28,13 +30,16 @@ for item  in intArray.reversed(){
     print(item);
 }
 
+/*
+ 闭区间 a...b ([a,b])
+ */
 /**
  1
  2
  3
  **/
-for index in 1...3{
-    print(index)
+for i in 1...3{
+    print(i)
 }
 
 let index_start = 1;
@@ -62,14 +67,71 @@ let animals_rang = 0...2;
 for i in animals_rang{
     print(animals[i])
 }
-    
+   
+
+/*
+ 半闭区间 a...<b ([a,b))
+ */
 /**
  1
  2
  */
-for index in 1..<3{
-    print(index)
+for i in 1..<3{
+    print(i)
 }
+
+//  i 默认是let，需要时声明为var
+print("--var i ->")
+// 6
+// 7
+// 8
+for var i in 1...3{
+    i += 5
+    print(i)
+}
+print("--var i <-")
+
+
+// 假如用不到i，用_代替
+for  i in 1...3{ // warning : Immutable value 'i' was never used; consider replacing with '_' or removing it
+    print("123")
+}
+for  _ in 1...3{
+    print("123")
+}
+
+/*
+ 单侧区间：让区间朝一个方向尽可能远
+ */
+let names = ["Sun","Brian","Jacky","Baidu","Swift"]
+// Jacky
+// Baidu
+// Swift
+for i in names[2...]{
+    print(i)
+}
+
+// Sun
+// Brian
+// Jacky
+for i in names[...2]{
+    print(i)
+}
+
+//
+// Sun
+// Brian
+for i in names[..<2]{
+    print(i)
+}
+
+
+let range = ...5; // PartialRangeThrough, [负无穷小, 5]
+range.contains(5);      // true 
+range.contains(6);      // false
+range.contains(7);      // false
+range.contains(-3);     // true
+range.contains(-188988);//true
 
 
 /**
