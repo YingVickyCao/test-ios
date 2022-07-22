@@ -161,36 +161,9 @@ for(key,value) in dict{
 //    print(i)
 //}
 
-
-// 2 While
-//var i = 1;
-var i = 2;
-while i < 2{
-    print(i)
-    i = i + 1;
-}
-
-// 3 repeat while
-// repeat while, 相当于 C 语言的do-while,至少执行1次
-
-// Old version < Swift 4
-// error: 'do-while' statement is not allowed; use 'repeat-while' instead
-//var j = 2;
-//do {
-//    print(j);
-//    j = j+1;
-//}while (j < 2)
-
-// Swift >=4
-var j = 2;
-repeat {
-    print(j);
-    j = j+1;
-}while (j < 2)
-
-// num is -1
-var num = -1;
-repeat{
-    print("num is \(num)")
-}
-while(num > 0)
+// where 用在 for
+var nums = [1,2,-1,-2,3,5]
+var sum = 0;
+for item in nums where item > 0{ // where决定了num能不能进入大括号。等价于 continue
+    sum = sum + item
+} // 11

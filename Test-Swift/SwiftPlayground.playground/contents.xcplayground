@@ -16,7 +16,7 @@
         <page name='5_8_元祖'/>
         <page name='5_9_结构体'/>
         <page name='5_数据类型转换'/>
-        <page name='7_循环'/>
+        <page name='7_1_循环_for'/>
         <page name='8_1_ 运算符_赋值运算符'/>
         <page name='8_2_运算符_算术运算符'/>
         <page name='8_3_运算符_比较运算符'/>
@@ -34,5 +34,8 @@
         <page name='0_Plaground_Example'/>
         <page name='6_1_条件_if'/>
         <page name='6_2_条件_switch'/>
+        <page name='7_4_循环_标签语句'/>
+        <page name='7_2_循环_while'/>
+        <page name='7_3_循环_repeat_while'/>
     </pages>
 </playground>
