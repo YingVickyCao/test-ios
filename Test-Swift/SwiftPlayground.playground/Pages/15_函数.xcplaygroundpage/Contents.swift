@@ -2,20 +2,38 @@ import Foundation
 
 // Fuction
 
-// 1 return value
-// no return value
-//func hi(){
-func hi()-> Void{
-    print("hi, this is the simplest function")
+// 1 有返回值
+func pi() -> Double{
+    return 3.14
 }
-hi();
+pi() // 3.14
 
-// Has return value
-func hi2()->String{
-    return "China";
+
+
+//形参的默认是let，也只能是let
+func plus(v1:Int, v2 : Int) -> Int{
+    return v1 + v2;
 }
+plus(v1: 10, v2: 20); // 30
 
-hi2();
+
+// 2 没有返回值
+// Way 1
+//func hi()-> Void{
+//    print("hi")
+//} // hi
+
+// Way 2
+//func hi() -> (){ // 认为()是一个空元祖
+//    print("hi")
+//}
+
+// Way 3
+func hi(){
+    print("hi")
+}
+hi() // hi
+
 
 // has multiple value
 func hi3() ->(name:String , no:Int){
@@ -25,13 +43,11 @@ hi3();
 
 
 // 2 参数
+
 // 无参数: see hi()
 
-// 1个参数:
-func hello(name:String){
-    print(name)
-}
-hello(name: "abc");
+// 2 个参数
+
 
 // 多个函数
 func hello2(name:String, no:Int){
