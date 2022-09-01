@@ -24,7 +24,7 @@
         <page name='8_5_运算符_逻辑运算符'/>
         <page name='8_6_运算符_区间运算符'/>
         <page name='14_控制传递'/>
-        <page name='15_函数'/>
+        <page name='15_1_函数_返回值'/>
         <page name='16_闭包'/>
         <page name='17_枚举'/>
         <page name='18_1_inheritance'/>
@@ -37,5 +37,9 @@
         <page name='7_4_循环_标签语句'/>
         <page name='7_2_循环_while'/>
         <page name='7_3_循环_repeat_while'/>
+        <page name='15_2_函数_函数文档注释'/>
+        <page name='15_3_函数_参数标签'/>
+        <page name='15_4_函数_函数文档注释'/>
+        <page name='Untitled Page'/>
     </pages>
 </playground>
