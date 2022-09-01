@@ -40,6 +40,7 @@
         <page name='15_2_函数_函数文档注释'/>
         <page name='15_3_函数_参数标签'/>
         <page name='15_4_函数_默认参数值'/>
-        <page name='15_2_函数_可变参数'/>
+        <page name='15_5_函数_可变参数'/>
+        <page name='15_6_函数_输入输出参数'/>
     </pages>
 </playground>

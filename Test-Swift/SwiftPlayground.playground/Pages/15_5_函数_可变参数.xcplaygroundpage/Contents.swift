@@ -49,3 +49,13 @@ func test2(_ nums: Int..., _ name:String="Vicky", _ city:String="USN"){
 test2(10,20)
 test2(10,20,"Vicky", "China") // error : Cannot convert value of type 'String' to expected argument type 'Int'
 */
+
+/**
+ 3 官方 的print
+ public func print(_ items: Any..., separator: String = " ", terminator: String = "\n")
+ 用空白符分割参数，并 以\n换行
+ */
+print("1", "2", "3")                    // 1 2 3
+print("1", "2", "3", separator: "@")    // 1@2@3
+print("1", "2", "3", separator: "", terminator: "")    // 不换行 123end
+print("end")
